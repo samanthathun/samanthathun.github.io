@@ -15,6 +15,10 @@ header {
 h1 {
     font-size: 2em;
 }
+.sun {
+color: #F4D35E;
+font-family: "sacramento"
+}
 img {
     width: 300px;
     height: 250px;
