@@ -19,7 +19,7 @@ header img, .headings {
 }
 body {
 	font-size: 16px;
-	font-family: 'Questrial', Geneva, sans-serif;;
+	font-family: 'Questrial', Geneva, sans-serif;
 }
 nav {
 	max-width: 960px;
@@ -43,7 +43,8 @@ nav a {
 	text-align: center;
 	padding: 15px;
     text-decoration: none;
-	font-size: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Open Sans Condensed', Geneva, sans-serif;
 }
 nav a:hover {
 	background-color: #bbb;
