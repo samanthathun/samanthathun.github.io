@@ -12,7 +12,9 @@ header {
     font-family: 'Merienda', Charcoal, sans-serif;
     color: #083D77;
 }
-
+img {
+    max-width: 100%;
+}
 header img, .headings {
 	display: inline-block;
 	vertical-align: middle;
@@ -49,4 +51,12 @@ nav a {
 nav a:hover {
 	background-color: #8F9491;
 	color: #ffffff;
+}
+
+.h li {
+	display: inline-block;
+}
+
+.v li {
+	display: block;
 }
