@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Merienda|Open+Sans+Condensed:300|Questrial|Sacramento|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Merienda|Open+Sans+Condensed:300|Poiret+One|Questrial|Sacramento|Satisfy');
 body {
 	background-color:#EBEBD3;
 }
@@ -9,7 +9,7 @@ header {
 	border: 1px solid #8F9491;
 	box-shadow: 0 0 30px #ffffff;
     text-align: center;
-    font-family: 'Merienda', Charcoal, sans-serif;
+    font-family: 'Poiret One', Charcoal, sans-serif;
     color: #083D77;
 }
 h1 {
