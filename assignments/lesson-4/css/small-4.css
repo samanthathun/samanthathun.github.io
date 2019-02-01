@@ -59,11 +59,3 @@ nav a:hover {
 	background-color: #8F9491;
 	color: #ffffff;
 }
-
-.h li {
-	display: inline-block;
-}
-
-.v li {
-	display: block;
-}
