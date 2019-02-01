@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Merienda|Open+Sans+Condensed:300|Questrial|Sacramento|Satisfy');
+body {
+	background-color:#EBEBD3;
+}
+
+header {
+	margin: 10px auto;
+	background-color:#7BA2C4;
+	border: 1px solid #8F9491;
+	box-shadow: 0 0 30px #ffffff;
+	text-align: center;
+}
+
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
