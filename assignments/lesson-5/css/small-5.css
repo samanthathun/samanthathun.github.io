@@ -70,7 +70,7 @@ nav a:hover {
 	color: #ffffff;
 }
 .weathersummary {
-    display: inline-block;
+    display: horizontal;
 }
 .mapouter {
     text-align: right;
