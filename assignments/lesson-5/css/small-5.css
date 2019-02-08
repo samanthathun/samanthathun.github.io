@@ -75,6 +75,9 @@ nav a:hover {
 .weathersummary {
     
 }
+.forecast {
+    display: none;
+}
 .mapouter {
     text-align: right;
     height: 500px;
