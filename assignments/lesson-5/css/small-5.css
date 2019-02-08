@@ -83,6 +83,11 @@ nav a:hover {
 footer { 
     background-color: #7BA2C4;
 }
+.footerbar {
+    text-align: center;
+}
+
+
 .mapouter {
     text-align: right;
     height: 500px;
