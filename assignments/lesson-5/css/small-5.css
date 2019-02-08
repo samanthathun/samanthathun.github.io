@@ -28,6 +28,10 @@ font-family: "sacramento"
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
 }
+h2 {
+    display: block;
+    vertical-align: middle;
+}
 .townimg {
     width: 600px;
     height: 300px;
@@ -70,7 +74,7 @@ nav a:hover {
 	color: #ffffff;
 }
 .weathersummary {
-    display: horizontal;
+    display: ;
 }
 .mapouter {
     text-align: right;
