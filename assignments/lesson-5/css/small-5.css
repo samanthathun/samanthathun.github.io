@@ -73,13 +73,19 @@ nav a:hover {
 	color: #ffffff;
 }
 .weathersummary {
-    
+  position: relative;  
+}
+
+.weatherdetails {
+    position: absolute;
 }
 .forecast {
     display: none;
 
 }
-
+.contactsection {
+position: relative;
+}
 footer { 
     background-color: #7BA2C4;
 }
