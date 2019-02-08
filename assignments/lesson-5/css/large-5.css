@@ -18,6 +18,9 @@ h3 {
     text-align: center;
     border: solid black 2px;
 }
-
+.farmersmarket img{
+    width: 300px;
+    float: right;
+}
 
 }
