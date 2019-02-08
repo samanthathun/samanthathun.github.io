@@ -8,6 +8,9 @@
 .navigation li:first-child {
     display: none;
 }
+nav a {
+    display: inline;
+}
 h3 {
     text-align: "center";
 
