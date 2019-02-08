@@ -13,7 +13,9 @@ h3 {
 
 }
 .forcast {
-    vertical-align: middle;
+    display: block;
+    width: 100%;
+    text-align: center;
     border: solid black 2px;
 }
 
