@@ -13,6 +13,7 @@ header {
     text-align: center;
     font-family: 'Poiret One', Charcoal, sans-serif;
     color: #083D77;
+    max-width: 960px;
 }
 h1 {
     font-size: 3em;
