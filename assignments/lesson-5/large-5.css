@@ -4,4 +4,10 @@
     margin: 1.5em;
     vertical-align: middle;
    }
+nav li:first-child {
+    display:none;
+}
+
+
+
 }
