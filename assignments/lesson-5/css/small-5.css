@@ -74,11 +74,12 @@ nav a:hover {
 }
 .weatherheader {
   position: relative; 
-  background-color: #8F9491; 
+ 
 }
 
 .weatherdetails {
     position: absolute;
+    background-color: #8F9491;
 }
 .forecast {
     display: none;
