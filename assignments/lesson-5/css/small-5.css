@@ -29,9 +29,11 @@ font-family: "sacramento"
     box-shadow: 5px 5px 5px black;
 }
 .town {
-    width: 960px;
+    width: 600px;
     height: 300px;
     margin: 10px 0 10px 0;
+    display: inline-block;
+    vertical-align: middle;
 }
 header img, .headings {
 	display: inline-block;
