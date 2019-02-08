@@ -77,6 +77,11 @@ nav a:hover {
 }
 .forecast {
     display: none;
+
+}
+
+footer{
+    background-color: #7BA2C4;
 }
 .mapouter {
     text-align: right;
