@@ -80,9 +80,3 @@ section {
     height: 500px;
     width: 600px;
 }
-.smallicon {
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px black;
-}
