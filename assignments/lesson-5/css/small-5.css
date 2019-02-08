@@ -13,7 +13,6 @@ header {
     text-align: center;
     font-family: 'Poiret One', Charcoal, sans-serif;
     color: #083D77;
-    max-width: 960px;
 }
 h1 {
     font-size: 3em;
@@ -40,7 +39,8 @@ body {
 }
 nav {
 	max-width: 960px;
-	margin: 0 auto;
+    margin: 0 auto;
+    display: inline-block;
     background-color: #F4D35E;
 	text-align: center;
 	box-shadow: 0px 3px 3px gray;
