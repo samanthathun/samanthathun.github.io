@@ -8,7 +8,7 @@
 .navigation li:first-child {
     display: none;
 }
-li {
+nav li {
     display: inline-block;
 
 }
