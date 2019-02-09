@@ -68,12 +68,12 @@ nav a {
     display: block; 
 }
 nav a:hover {
-	background-color: #8F9491;
+	background-color: #083D77;
 	color: #ffffff;
 }
 .active {
-    background-color: #083D77;
-    color: white;
+    background-color: #7BA2C4;;
+	color: #ffffff;
 }
 .weathersummary {
     position: absolute;
