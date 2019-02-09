@@ -4,6 +4,9 @@
     margin: 1.5em;
     vertical-align: middle;
    }
+   .townimg {
+       height: 450px;
+   }
 
 .navigation li:first-child {
     display: none;
