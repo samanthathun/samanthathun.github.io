@@ -21,13 +21,13 @@ h3 {
 
 }
 .forcast {
-    display: block;
+    display: inline-block;
     width: 100%;
     text-align: center;
     border: solid black 2px;
 }
-.farmersmarket img{
-    width: 300px;
+.farmersmarket{
+    width: 450px;
     float: right;
 }
 

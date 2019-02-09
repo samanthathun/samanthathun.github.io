@@ -93,14 +93,16 @@ nav a:hover {
 }
 .value {
     color: white;
-    
+
 }
 .forecast {
+
     display: none;
 
 }
-.farmersmarket img{
-    width: 200px;
+
+.farmersmarket{
+    width: 300px;
     height: auto;
     margin: 1rem 2%;
     box-shadow: 0px 3px 3px gray;
