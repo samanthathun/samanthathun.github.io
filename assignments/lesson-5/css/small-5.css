@@ -71,6 +71,9 @@ nav a:hover {
 	background-color: #8F9491;
 	color: #ffffff;
 }
+.weathersummary {
+    position: relative;
+}
 .weatherheader {
   position: relative; 
  
