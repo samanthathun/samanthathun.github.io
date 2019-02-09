@@ -15,7 +15,10 @@ header {
     color: #083D77;
 }
 h1 {
-    font-size: 3em;
+    font-size: 4em;
+}
+.motto {
+    font-size: 1.25em;
 }
 .sun {
 color: #F4D35E;
@@ -30,6 +33,8 @@ font-family: "sacramento"
 }
 h2 {
     text-align: center;
+    font-size: 2em;
+    color: #083D77;
 }
 .townimg{
     width: 900px;
@@ -106,6 +111,18 @@ nav a:hover {
     height: auto;
     margin: 1rem 2%;
     box-shadow: 0px 3px 3px gray;
+}
+h3 {
+    text-align: center;
+    color: #083D77;
+    font-size: 1.5em;
+}
+pre {
+    color: #F4D35E;
+    font-size: .75em;
+}
+.farmersmarketarticle {
+    color:#083D77;
 }
 .contactsection {
 position: relative;
