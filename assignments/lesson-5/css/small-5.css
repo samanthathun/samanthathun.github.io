@@ -117,7 +117,6 @@ nav a:hover {
 
 }
 .forecast {
-
     display: none;
 
 }
@@ -165,9 +164,8 @@ footer {
     height: 15px;
 }
 .contactsection {
-    float: left;
+    text-align: left;
 
-    
 }
 .mapouter {
     text-align: right;

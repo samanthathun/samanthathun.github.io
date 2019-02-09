@@ -27,7 +27,12 @@ h3 {
     display: inline-block;
     width: 100%;
     text-align: center;
-    border: solid black 2px;
+    border: solid #ffffff 1px;
+
+}
+.forecastimage {
+
+    
 }
 .farmersmarket {
     width: 450px;
