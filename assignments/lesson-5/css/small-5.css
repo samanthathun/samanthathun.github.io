@@ -71,6 +71,10 @@ nav a:hover {
 	background-color: #8F9491;
 	color: #ffffff;
 }
+.active {
+    background-color: #083D77;
+    color: white;
+}
 .weathersummary {
     position: relative;
 }
