@@ -77,7 +77,7 @@ nav a:hover {
 	color: #ffffff;
 }
 .active {
-    background-color: #7BA2C4;;
+    background-color: #7BA2C4;
 	color: #ffffff;
 
 }
@@ -88,16 +88,32 @@ nav a:hover {
 
 .weatherdetails {
     position: absolute;
-    top: 30px;
+    top: 225px;
     left: 30px;
-    background-color: transparent;
-    border: black solid 2px;
+    background-color: #7BA2C4;
+    border: #ffffff solid .5px;
+    
+
 }
 .label, .value {
    text-align: center;
+   display: inline;
+   padding: 20px;
+   margin: 20px;
+   
+
+}
+.label {
+    font-size: 1.25em;
+    text-emphasis: bold;
+    color: #083D77;
+
+    
+
 }
 .value {
-    color: white;
+    color: #F4D35E;
+
 
 }
 .forecast {
@@ -111,6 +127,7 @@ nav a:hover {
     height: auto;
     margin: 1rem 2%;
     box-shadow: 0px 3px 3px gray;
+    text-align: center;
 }
 h3 {
     text-align: center;
@@ -125,16 +142,29 @@ pre {
     color:#083D77;
 }
 .contactsection {
-position: relative;
+float: left;
+bottom: 10px;
 }
+
 footer { 
     background-color: #7BA2C4;
 }
 .footerbar {
     text-align: center;
 }
+.smallicon {
+    width: 25px;
+    height: 25px;
+}
+.smallesticon {
+    width: 15px;
+    height: 15px;
+}
+.contactsection {
+    float: left;
 
-
+    
+}
 .mapouter {
     text-align: right;
     height: 100%;
