@@ -92,6 +92,7 @@ nav a:hover {
     left: 30px;
     background-color: #7BA2C4;
     border: #ffffff solid .5px;
+    line-height: 30px;
     
 
 }
@@ -107,6 +108,7 @@ nav a:hover {
     font-size: 1.25em;
     text-emphasis: bold;
     color: #083D77;
+    text-align: right;
 
     
 
