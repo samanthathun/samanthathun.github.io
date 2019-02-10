@@ -1,5 +1,6 @@
 @media only screen and (min-width: 64em) {
-  header img, .headings {
+  
+    header img, .headings {
     display: inline-block;
     margin: 1.5em;
     vertical-align: middle;
