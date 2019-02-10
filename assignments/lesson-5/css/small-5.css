@@ -88,7 +88,7 @@ nav a:hover {
 
 .weatherdetails {
     position: absolute;
-    top: 200px;
+    top: 100px;
     left: 30px;
     background-color: #7BA2C4;
     border: #ffffff solid .5px;
