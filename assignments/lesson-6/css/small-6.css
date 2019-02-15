@@ -1,0 +1,182 @@
+body {
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+	background-color:#EBEBD3;
+}
+
+header {
+	margin: 10px auto;
+	background-color:#7BA2C4;
+	border: 1px solid #8F9491;
+	box-shadow: 0 0 30px #ffffff;
+    text-align: center;
+    font-family: 'Poiret One', Charcoal, sans-serif;
+    color: #083D77;
+}
+h1 {
+    font-size: 4em;
+}
+.motto {
+    font-size: 1.25em;
+}
+.sun {
+color: #F4D35E;
+font-family: "sacramento"
+}
+.sunlogo {
+    width: 300px;
+    height: 250px;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #083D77;
+}
+.townimg{
+    width: 100%;
+    height: 100%;
+}
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+body {
+	font-size: 16px;
+	font-family: 'Questrial', Geneva, sans-serif;
+}
+nav {
+	max-width: 960px;
+    margin: 0 auto;
+    background-color: #F4D35E;
+	text-align: center;
+	box-shadow: 0px 3px 3px gray;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav a {
+    color: #083D77;
+	text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Open Sans Condensed', Geneva, sans-serif;
+    display: block; 
+}
+nav a:hover {
+	background-color: #083D77;
+	color: #ffffff;
+}
+.active {
+    background-color: #7BA2C4;
+	color: #ffffff;
+
+}
+.weatherheader {
+  position: relative; 
+ 
+}
+
+.weatherdetails {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #7BA2C4;
+    border: #ffffff solid .5px;
+    line-height: 30px;
+
+}
+.label, .value {
+   text-align: center;
+   display: inline;
+   padding: 20px;
+   margin: 20px;
+   
+
+}
+.label {
+    font-size: 1.25em;
+    text-emphasis: bold;
+    color: #083D77;
+    text-align: right;
+
+    
+
+}
+.value {
+    color: #F4D35E;
+
+
+}
+.forecast {
+    display: none;
+
+}
+
+.farmersmarket{
+    width: 300px;
+    height: auto;
+    margin: 1rem 2%;
+    box-shadow: 0px 3px 3px gray;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+h3 {
+    text-align: center;
+    color: #083D77;
+    font-size: 1.5em;
+}
+pre {
+    color: #F4D35E;
+    font-size: .75em;
+}
+.farmersmarketarticle {
+    color:#083D77;
+}
+.contactsection {
+float: left;
+bottom: 10px;
+}
+
+footer { 
+    background-color: #7BA2C4;
+}
+.footerbar {
+    text-align: center;
+}
+.smallicon {
+    width: 25px;
+    height: 25px;
+}
+.smallesticon {
+    width: 15px;
+    height: 15px;
+}
+.contactsection {
+    text-align: left;
+
+}
+.mapouter {
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}

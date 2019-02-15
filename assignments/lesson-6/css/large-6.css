@@ -1,0 +1,40 @@
+@media only screen and (min-width: 64em) {
+  
+    header img, .headings {
+    display: inline-block;
+    margin: 1.5em;
+    vertical-align: middle;
+   }
+   .townimg {
+       height: 450px;
+   }
+
+.navigation li:first-child {
+    display: none;
+}
+nav a {
+    display: inline-block;
+}
+li {
+    display: inline-block;
+    padding: 5px;
+
+}
+h3 {
+    text-align: "center";
+
+}
+.forecast {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: solid #ffffff 1px;
+
+}
+.farmersmarket {
+    width: 450px;
+    float: right;
+}
+
+
+}
