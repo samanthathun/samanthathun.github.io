@@ -141,14 +141,13 @@ pre {
 .farmersmarketarticle {
     color:#083D77;
 }
+.contactmap {
+    display: inline-block;
+    vertical-align: middle;
+	margin: 10px;
+}
 
 
-footer { 
-    background-color: #7BA2C4;
-}
-.footerbar {
-    text-align: center;
-}
 .smallicon {
     width: 25px;
     height: 25px;
@@ -158,9 +157,6 @@ footer {
     height: 15px;
 }
 
-.contactmap {
-    display: inline-block;
-}
 .mapouter {
     text-align: right;
     height: 100%;
@@ -172,4 +168,10 @@ footer {
     background: none !important;
     height: 100%;
     width: 100%;
+}
+footer { 
+    background-color: #7BA2C4;
+}
+.footerbar {
+    text-align: center;
 }
