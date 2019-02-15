@@ -20,18 +20,29 @@ li {
     padding: 5px;
 
 }
+
 .forecast {
     display: inline-block;
-    width: 100%;
+    width: 550px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+    
+
+}
+table, th, td {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
     text-align: center;
-    border: solid #ffffff 1px;
-
-}
-
-.forecastimg {
-    width: 25px;
-    height: 25px;
-}
+  }
+  th, td {
+    padding: 15px;
+  }
+  .forecastimg {
+    width: 100px;
+    height: 100px;
+  }
 .farmersmarket {
     float: right;
 }
