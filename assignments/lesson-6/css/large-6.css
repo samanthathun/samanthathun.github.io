@@ -27,8 +27,12 @@ li {
     border: solid #ffffff 1px;
 
 }
+
+.forecastimg {
+    width: 25px;
+    height: 25px;
+}
 .farmersmarket {
-    width: 450px;
     float: right;
 }
 
