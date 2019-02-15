@@ -101,15 +101,11 @@ nav a:hover {
    padding: 20px;
    margin: 20px;
    
-
 }
 .label {
     font-size: 1.25em;
-    text-emphasis: bold;
     color: #083D77;
     text-align: right;
-
-    
 
 }
 .value {
