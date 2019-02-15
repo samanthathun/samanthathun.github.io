@@ -162,7 +162,10 @@ footer {
 }
 .contactsection {
     text-align: left;
-
+    
+}
+.contactmap {
+    display: inline-block;
 }
 .mapouter {
     text-align: right;
