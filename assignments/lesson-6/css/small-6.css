@@ -161,13 +161,10 @@ pre {
     height: 15px;
 }
 
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 100%;
-    width: 100%;
+footer {
+    padding: 10px;
+    margin: 10px;
 }
-
 .footerbar {
     text-align: center;
 }
