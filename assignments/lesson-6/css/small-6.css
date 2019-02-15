@@ -141,10 +141,18 @@ pre {
 .farmersmarketarticle {
     color:#083D77;
 }
+.farmersmarketarticle {
+    padding: 20px;
+}
+
 .contactmap {
     display: inline-block;
     vertical-align: middle;
-	margin: 10px;
+    margin: 10px;
+
+}
+.contactsection {
+    clear: both;
 }
 
 .smallicon {
@@ -157,9 +165,8 @@ pre {
 }
 
 .mapouter {
-    text-align: right;
-    height: 100%;
     width: 100%;
+    height: auto;
 }
 
 .gmap_canvas {

@@ -6,7 +6,7 @@
     vertical-align: middle;
    }
    .townimg {
-       height: 450px;
+       height: 500px;
    }
 
 .navigation li:first-child {
@@ -23,12 +23,10 @@ li {
 
 .forecast {
     display: inline-block;
-    width: 550px;
+    width: 500px;
     margin: auto;
     width: 50%;
     padding: 10px;
-
-    
 
 }
 table, th, td {
@@ -45,6 +43,9 @@ table, th, td {
   }
 .farmersmarket {
     float: right;
+}
+.farmersmarketarticle {
+    padding-left: 15px;
 }
 
 
