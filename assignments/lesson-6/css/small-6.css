@@ -143,13 +143,13 @@ pre {
     padding: 20px;
 }
 .contactmap {
-    display: inline-block;
-    vertical-align: middle;
+    clear: both;
     margin: 10px;
 
 }
-.contactsection {
-    clear: both;
+.contactsection, .mapouter {
+    display: inline-block;
+    vertical-align: center;
 }
 
 .smallicon {
@@ -159,11 +159,6 @@ pre {
 .smallesticon {
     width: 15px;
     height: 15px;
-}
-
-.mapouter {
-    width: 100%;
-    height: auto;
 }
 
 .gmap_canvas {
