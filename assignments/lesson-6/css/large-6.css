@@ -23,11 +23,13 @@ li {
 
 .forecast {
     display: inline-block;
-    width: 500px;
-    margin: auto;
-    width: 50%;
+    margin: 0 auto;
+    width: 100%;
     padding: 10px;
 
+}
+table {
+    margin: 0 auto;
 }
 table, th, td {
     border: 1px solid #ffffff;
