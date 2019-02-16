@@ -30,9 +30,6 @@ nav a {
     padding: 5px;
 
 }
-.navigation li a { 
-    color: yellow;
-}
 
 .forecast {
     display: inline-block;
