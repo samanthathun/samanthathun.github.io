@@ -39,11 +39,12 @@
         <h2>Preston, ID</h2>
         <div class="weatherheader">
             <picture>
-                <source media="(max-width: 480px)" srcset="images/cit230imgoptimized500.jpg">
-                <source media="(max-width: 800px)" srcset="images/cit230imgoptimized800.jpg">
-                <source media="(max-width: 1060px)" srcset="images/cit230imglarge.jpg">
+                <source media="(max-width: 480px)" srcset="images/cit230imgoptimized500.jpg 1x">
+                <source media="(max-width: 800px)" srcset="images/cit230imgoptimized800.jpg 2x">
+                <source media="(max-width: 1060px)" srcset="images/cit230imglarge.jpg 3x">
                 <img class="townimg" src="images/town.jpg" alt="The sun logo">
             </picture>
+
             <div class="weatherdetails">
                 <h3>Weather Summary</h3>
                 <div class="label">Currently</div>
@@ -118,7 +119,7 @@
             <img class="smallicon" src="images/youtube.png" alt="youtube link">
         </div>
         <div class="mapouter">
-            <iframe width="400" height="325" id="gmap_canvas"
+            <iframe width="325" height="225" id="gmap_canvas"
                 src="https://maps.google.com/maps?q=preston%20id&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                 scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
