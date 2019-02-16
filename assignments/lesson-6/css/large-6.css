@@ -5,6 +5,15 @@
     margin: 1.5em;
     vertical-align: middle;
    }
+   h1 {
+    font-size: 4em;
+}
+.motto {
+    font-size: 1.25em;
+}
+.sunlogo {
+    width: 125px;
+}
    .townimg {
        height: 500px;
    }
@@ -14,6 +23,7 @@
 }
 nav a {
     display: inline-block;
+    padding: 10px;
 }
 li {
     display: inline-block;
@@ -50,7 +60,7 @@ table, th, td {
     padding-left: 15px;
 }
 .mapouter {
-    
+
 }
 
 
