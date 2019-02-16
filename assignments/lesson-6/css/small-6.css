@@ -2,13 +2,13 @@ body {
     max-width: 960px;
     height: auto;
     margin: 0 auto;
-	background-color:#EBEBD3;
+	background-color:#C1CCDD;
 }
 
 header, footer{
 	margin: 10px auto;
-	background-color:#D1EBFF;
-	border: 1px solid #8F9491;
+	background-color:#ffffff;
+	border: 1px solid #EAEAEA;
 	box-shadow: 0 0 30px #ffffff;
     text-align: center;
     font-family: 'Poiret One', Charcoal, sans-serif;
@@ -102,13 +102,22 @@ nav a:hover {
   position: relative; 
  
 }
+h3 {
+    text-align: center;
+    color: #083D77;
+    font-size: 1.5em;
+}
 .weatherdetails {
     position: absolute;
     top: 30px;
     left: 30px;
     background-color:#ffffff;
     border: #ffffff solid .5px;
-    
+    font-size: 0.75em;
+
+}
+.weatherdetails h3 {
+    margin: 0;
 }
 .label, .value {
    display: inline;
@@ -142,11 +151,7 @@ nav a:hover {
     margin-right: auto;
  
 }
-h3 {
-    text-align: center;
-    color: #083D77;
-    font-size: 1.5em;
-}
+
 pre {
     color: #F4D35E;
     font-size: .75em;
