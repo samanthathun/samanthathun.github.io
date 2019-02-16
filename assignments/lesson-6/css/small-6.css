@@ -2,14 +2,14 @@ body {
     max-width: 960px;
     height: auto;
     margin: 0 auto;
-	background-color:#C1CCDD;
+	background-color:#9B9898;
 }
 
 header, footer{
 	margin: 10px auto;
 	background-color:#ffffff;
-	border: 1px solid #EAEAEA;
-	box-shadow: 0 0 30px #ffffff;
+	border: 1px solid #FFC857;
+	box-shadow: 30px #ffffff;
     text-align: center;
     font-family: 'Poiret One', Charcoal, sans-serif;
     color: #083D77;
@@ -21,7 +21,7 @@ h1 {
     font-size: .75em;
 }
 .sun {
-color: #F4D35E;
+color: #FFC857;
 font-family: "sacramento"
 }
 .sunlogo {
@@ -29,7 +29,6 @@ font-family: "sacramento"
     height: auto;
     margin: 10px 0 10px 0;
     border-radius: 3px;
-    box-shadow: 5px 5px 5px #8F9491;
 }
 h2 {
     text-align: center;
@@ -52,9 +51,8 @@ body {
 nav {
 	max-width: 960px;
     margin: 0 auto;
-    background-color: #F4D35E;
+    background-color: #FFC857;
 	text-align: center;
-	box-shadow: 0px 3px 3px gray;
 	padding: 10px;
 	overflow: hidden;
 }
@@ -86,7 +84,7 @@ nav a {
     padding: 15px;
 }
 .active {
-    background-color: #D1EBFF;
+    background-color: #9B9898;
 	color: #ffffff;
 
 }
@@ -114,6 +112,7 @@ h3 {
     background-color:#ffffff;
     border: #ffffff solid .5px;
     font-size: 0.75em;
+    padding: 5px;
 
 }
 .weatherdetails h3 {
@@ -131,7 +130,7 @@ h3 {
 
 }
 .value {
-    color: #F4D35E;
+    color: #FFC857;
 
 }
 
@@ -153,11 +152,11 @@ h3 {
 }
 
 pre {
-    color: #F4D35E;
+    color: #FFC857;
     font-size: .75em;
 }
 .farmersmarketarticle {
-    color:#083D77;
+    color: #083D77;
     padding: 20px;
 }
 .contactmap {
@@ -168,8 +167,11 @@ pre {
 }
 .contactsection, .mapouter {
     display: inline-block;
-    padding: 30px;
-
+   
+    color: #083D77;
+}
+.mapouter {
+    padding: 20px 0;
 }
 
 .smallicon {
