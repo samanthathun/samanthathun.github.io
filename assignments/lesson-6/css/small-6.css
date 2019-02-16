@@ -7,7 +7,7 @@ body {
 
 header, footer{
 	margin: 10px auto;
-	background-color:#A5CDE5;
+	background-color:#D1EBFF;
 	border: 1px solid #8F9491;
 	box-shadow: 0 0 30px #ffffff;
     text-align: center;
@@ -82,7 +82,7 @@ nav a {
     padding: 15px;
 }
 .active {
-    background-color: #A5CDE5;
+    background-color: #D1EBFF;
 	color: #ffffff;
 
 }
@@ -102,7 +102,7 @@ nav a:hover {
     position: absolute;
     top: 30px;
     left: 30px;
-    background-color:#A5CDE5;
+    background-color:#D1EBFF;
     border: #ffffff solid .5px;
     line-height: 30px;
     padding: 0 20px 20px;
