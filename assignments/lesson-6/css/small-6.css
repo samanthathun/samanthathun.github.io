@@ -105,14 +105,13 @@ nav a:hover {
     background-color:#A5CDE5;
     border: #ffffff solid .5px;
     line-height: 30px;
-    padding: 0 0 20px 0;
+    padding: 0 20px 20px;
 
 }
 .label, .value {
    display: inline;
    padding: 5px;
    margin: 5px;
-
    
 }
 .label {
