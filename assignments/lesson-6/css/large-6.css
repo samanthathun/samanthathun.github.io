@@ -68,10 +68,9 @@ table, th, td {
   }
 .farmersmarket {
     float: right;
+    padding: 20px;
 }
-.farmersmarketarticle {
-    padding-left: 15px;
-}
+
 
 
 }
