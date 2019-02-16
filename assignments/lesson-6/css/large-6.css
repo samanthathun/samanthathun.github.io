@@ -17,9 +17,11 @@
    .townimg {
        height: 500px;
    }
-
-.navigation li:first-child {
+.menu {
     display: none;
+}
+.navigation {
+    display: inline;
 }
 nav a {
     display: inline-block;
@@ -28,6 +30,12 @@ nav a {
 .navigation li {
     display: inline-block;
     padding: 5px;
+
+}
+.weatherdetails {
+
+    line-height: 30px;
+    padding: 0 20px 20px;
 
 }
 

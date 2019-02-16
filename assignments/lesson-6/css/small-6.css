@@ -71,6 +71,10 @@ nav li {
 .navigation {
     list-style: none; 
     text-align: center;
+    display: none;
+}
+.responsive {
+    display:block;
 }
 nav a {
     display: block;
@@ -104,9 +108,7 @@ nav a:hover {
     left: 30px;
     background-color:#ffffff;
     border: #ffffff solid .5px;
-    line-height: 30px;
-    padding: 0 20px 20px;
-
+    
 }
 .label, .value {
    display: inline;
