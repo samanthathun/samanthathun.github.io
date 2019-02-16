@@ -80,6 +80,9 @@ nav a:hover {
     color: #ffffff;
 	background-color: #083D77;
 }
+.responsive li {
+    display: block;
+}
 .active {
     background-color: #A5CDE5;
 	color: #ffffff;
