@@ -98,7 +98,6 @@ nav a:hover {
   position: relative; 
  
 }
-
 .weatherdetails {
     position: absolute;
     top: 30px;
@@ -113,6 +112,7 @@ nav a:hover {
    display: inline;
    padding: 5px;
    margin: 5px;
+
    
 }
 .label {
@@ -124,6 +124,7 @@ nav a:hover {
     color: #F4D35E;
 
 }
+
 .forecast {
     display: none;
 
