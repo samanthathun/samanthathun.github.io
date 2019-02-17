@@ -2,7 +2,7 @@ body {
     max-width: 960px;
     height: auto;
     margin: 0 auto;
-	background-color:#9B9898;
+	background-color:#D6CFCB;
 }
 
 header, footer{
@@ -84,7 +84,7 @@ nav a {
     padding: 15px;
 }
 .active {
-    background-color: #9B9898;
+    background-color: #D6CFCB;
 	color: #ffffff;
 
 }
@@ -104,7 +104,6 @@ h3 {
     text-align: center;
     color: #083D77;
     font-size: 1.5em;
-    padding: 20px 0 0 0px;
 }
 .weatherdetails {
     position: absolute;
@@ -137,6 +136,7 @@ h3 {
 
 .forecast {
     display: none;
+    color: #083D77;
 
 }
 
@@ -152,7 +152,7 @@ h3 {
 }
 
 pre {
-    color: #FFC857;
+    color: #083D77;
     font-size: .75em;
 }
 .farmersmarketarticle {
@@ -168,7 +168,6 @@ pre {
 }
 .contactsection, .mapouter {
     display: inline-block;
-   
     color: #083D77;
 }
 .mapouter {
@@ -187,6 +186,7 @@ pre {
 footer {
     padding: 10px;
     margin: 10px;
+    color: #083D77;
 }
 .footerbar {
     text-align: center;
