@@ -24,9 +24,9 @@
     </header>
 
     <nav>
-            <a class="menu" href="#" title="Menu" onclick="toggleMenu()">&equiv; Menu</a>
+        <a class="menu" href="#" title="Menu" onclick="toggleMenu()">&equiv; Menu</a>
         <ul class="navigation">
-    
+
             <li><a href="#">Home</a></li>
             <li class="active"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -46,7 +46,7 @@
                 <img class="townimg" src="images/town.jpg" alt="Town Image">
             </picture>
 
-           <div class="weatherdetails">
+            <div class="weatherdetails">
                 <h3>Weather Summary</h3>
                 <div class="label">Currently</div>
                 <div class="value">Rainy</div><br>
@@ -85,7 +85,13 @@
             </table>
         </div>
         <article class="town-article">
-            <img class="farmersmarket" src="images/farmersmarket.jpg" alt="farmers market produce">
+                <picture>
+                        <source media="(max-width: 480px)" srcset="images/cit230imgoptimized500.jpg 1x">
+                        <source media="(max-width: 800px)" srcset="images/cit230imgoptimized800.jpg 2x">
+                        <source media="(max-width: 1060px)" srcset="images/cit230imglarge.jpg 3x">
+                        <img class="farmersmarket" src="images/farmersmarket.jpg" alt="farmers market produce">
+                    </picture>
+            
             <h3>Local Farmers Market
                 <pre>by Rebecca Casey</pre>
             </h3>
