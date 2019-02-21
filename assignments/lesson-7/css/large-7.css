@@ -23,6 +23,9 @@
 .navigation {
     flex-direction: row;
 }
+.navigation li:first-child {
+    display: none
+}
 .navigation li {
     display: block;
     flex: 1 1 auto;
