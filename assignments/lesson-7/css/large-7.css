@@ -21,7 +21,7 @@
     display: none;
 }
 .navigation {
-    display: inline;
+    flex-direction: row;
 }
 nav a {
     display: inline-block;

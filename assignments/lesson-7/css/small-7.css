@@ -69,7 +69,8 @@ nav li {
 .navigation {
     list-style: none; 
     text-align: center;
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 .responsive {
     display:block;
