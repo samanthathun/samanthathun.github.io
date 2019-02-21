@@ -71,6 +71,7 @@ nav li {
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 .responsive {
     display:block;
