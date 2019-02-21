@@ -1,0 +1,193 @@
+body {
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+	background-color:#D6CFCB;
+}
+
+header, footer{
+	margin: 10px auto;
+	background-color:#ffffff;
+	border: 1px solid #FFC857;
+	box-shadow: 30px #ffffff;
+    text-align: center;
+    font-family: 'Poiret One', Charcoal, sans-serif;
+    color: #083D77;
+}
+h1 {
+    font-size: 2em;
+}
+.motto {
+    font-size: .75em;
+}
+.sun {
+color: #FFC857;
+font-family: "sacramento"
+}
+.sunlogo {
+    width: 75px;
+    height: auto;
+    margin: 10px 0 10px 0;
+    border-radius: 3px;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #083D77;
+}
+.townimg{
+    width: 100%;
+    height: 100%;
+}
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+body {
+	font-size: 16px;
+	font-family: 'Questrial', Geneva, sans-serif;
+}
+nav {
+	max-width: 960px;
+    margin: 0 auto;
+    background-color: #FFC857;
+	text-align: center;
+	padding: 10px;
+	overflow: hidden;
+}
+
+nav ul {
+    display: block;
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: block;
+}
+.navigation {
+    list-style: none; 
+    text-align: center;
+    display: none;
+}
+.responsive {
+    display:block;
+}
+nav a {
+    display: block;
+    color: #083D77;
+	text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Open Sans Condensed', Geneva, sans-serif;
+    padding: 15px;
+}
+.active {
+    background-color: #D6CFCB;
+	color: #ffffff;
+
+}
+nav a:hover {
+    color: #ffffff;
+	background-color: #083D77;
+}
+.responsive li {
+    display: block;
+}
+
+.weatherheader {
+  position: relative; 
+ 
+}
+h3 {
+    text-align: center;
+    color: #083D77;
+    font-size: 1.5em;
+}
+.weatherdetails {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color:#ffffff;
+    border: #ffffff solid .5px;
+    font-size: 0.75em;
+    padding: 5px;
+
+}
+.weatherdetails h3 {
+    margin: 0;
+}
+.label, .value {
+   display: inline;
+   padding: 5px;
+   margin: 5px;
+   
+}
+.label {
+    font-size: 1.25em;
+    color: #083D77;
+
+}
+.value {
+    color: #FFC857;
+
+}
+
+.forecast {
+    display: none;
+    color: #083D77;
+
+}
+
+.farmersmarket{
+    width: 200px;
+    height: auto;
+    margin: 1rem 2%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 0 0;
+}
+
+pre {
+    color: #083D77;
+    font-size: .75em;
+}
+.farmersmarketarticle {
+    color: #083D77;
+    padding: 20px;
+
+}
+.contactmap {
+    clear: both;
+    margin: 10px;
+    text-align: center;
+
+}
+.contactsection, .mapouter {
+    display: inline-block;
+    color: #083D77;
+}
+.mapouter {
+    padding: 20px 0;
+}
+
+.smallicon {
+    width: 25px;
+    height: 25px;
+}
+.smallesticon {
+    width: 15px;
+    height: 15px;
+}
+
+footer {
+    padding: 10px;
+    margin: 10px;
+    color: #083D77;
+}
+.footerbar {
+    text-align: center;
+}
