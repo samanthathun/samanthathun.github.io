@@ -1,4 +1,5 @@
 body {
+
     max-width: 960px;
     height: auto;
     margin: 0 auto;
@@ -14,13 +15,16 @@ header, footer{
     display: flex;
     justify-content: center; 
     align-items: center;
+    
 }
 header img, .headings {
 	display: inline-block;
 	vertical-align: middle;
 	margin: 10px;
 }
-
+.headinfo {
+    width: 100%;
+}
 h1 {
     font-size: 2em;
 }
