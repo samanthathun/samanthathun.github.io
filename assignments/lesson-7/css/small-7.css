@@ -76,7 +76,7 @@ nav li {
     justify-content: space-evenly;
 }
 .responsive {
-    display:block;
+    display: block;
 }
 nav a {
     display: block;
@@ -120,8 +120,6 @@ h3 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
-
     grid-column-gap: .25rem;
 
 }
