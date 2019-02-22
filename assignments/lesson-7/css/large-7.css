@@ -1,11 +1,5 @@
 @media only screen and (min-width: 1000px) {
-  
-    /*header img, .headings {
-    display: inline-block;
-    margin: 1.5em;
-    vertical-align: middle;
-   }*/
-   h1 {
+ h1 {
     font-size: 4em;
 }
 .motto {
@@ -73,7 +67,6 @@ table, th, td {
 }
 .wrapper {
     grid-template-columns: 1fr 1fr 1fr;
-    
 }
 
 .galleryimg:hover {

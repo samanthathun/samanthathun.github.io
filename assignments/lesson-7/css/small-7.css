@@ -8,7 +8,7 @@ main, footer {
     margin: 0 auto;
 
 }
-header, footer{
+header, footer {
 	margin: 10px auto;
 	background-color:#ffffff;
 	border: 1px solid #FFC857;
@@ -26,7 +26,7 @@ h1 {
     font-size: 2em;
 }
 .motto {
-    font-size: .75em;
+    font-size: 1.5em;
 }
 .sun {
 color: #FFC857;
@@ -196,7 +196,6 @@ footer {
 }
 .galleryimg {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     
     }
