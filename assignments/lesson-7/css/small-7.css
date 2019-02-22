@@ -1,8 +1,7 @@
 body {
-    max-width: 960px;
-    height: auto;
-    margin: 0 auto;
-	background-color:#D6CFCB;
+    background-color:#D6CFCB;
+	font-size: 16px;
+	font-family: 'Questrial', Geneva, sans-serif;
 }
 
 header, footer{
@@ -16,9 +15,8 @@ header, footer{
     align-items: center;
     
 }
-header img, .headings {
-	display: inline-block;
-	vertical-align: middle;
+.sunlogo, .headings {
+    flex: 1 1 auto;
 	margin: 10px;
 }
 /*.headinfo {
@@ -50,10 +48,6 @@ h2 {
     height: 100%;
 }
 
-body {
-	font-size: 16px;
-	font-family: 'Questrial', Geneva, sans-serif;
-}
 nav {
 	max-width: 960px;
     margin: 0 auto;
