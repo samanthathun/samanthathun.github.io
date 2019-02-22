@@ -64,12 +64,22 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.navigation li:first-child { 
+    display: block;
+}
+.navigation li { 
+    display: none;
+}
 .navigation a:hover {
     color: #ffffff;
 	background-color: #083D77;
 }
 
 .responsive {
+    display: block;
+}
+.responsive li {
     display: block;
 }
 
