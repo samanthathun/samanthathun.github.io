@@ -76,8 +76,9 @@ table, th, td {
     grid-gap: 25px;
     
 }
+
 .galleryimg:hover {
-box-shadow: 0 0 30px gray;
+box-shadow: 0 0 30px #333;
 }
 
 
