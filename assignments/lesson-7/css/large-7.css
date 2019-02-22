@@ -71,6 +71,10 @@ table, th, td {
     width: 260px;
     height: auto;
 }
+.wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 
 
 

@@ -1,6 +1,9 @@
 @media only screen and (min-width: 25em) {
 
-
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+        
+    }
 
 
 
