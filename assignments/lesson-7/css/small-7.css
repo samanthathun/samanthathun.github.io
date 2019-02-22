@@ -22,9 +22,6 @@ header, footer{
 .sunlogo, .headings {
 	margin: 10px;
 }
-/*.headinfo {
-    width: 100%;
-}*/
 h1 {
     font-size: 2em;
 }
@@ -59,26 +56,24 @@ nav {
 	padding: 10px;
 	overflow: hidden;
 }
-
-nav ul {
-    display: block;
-	list-style-type: none;
+.navigation {
+    list-style-type: none;
     padding: 0;
     margin: 0;
-}
-nav li {
-    display: block;
-}
-.navigation {
-    list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
+.navigation a:hover {
+    color: #ffffff;
+	background-color: #083D77;
+}
+
 .responsive {
     display: block;
 }
-nav a {
+
+.navigation a {
     display: block;
     color: #083D77;
 	text-align: center;
@@ -92,14 +87,6 @@ nav a {
 	color: #ffffff;
 
 }
-nav a:hover {
-    color: #ffffff;
-	background-color: #083D77;
-}
-.responsive li {
-    display: block;
-}
-
 .weatherheader {
   position: relative; 
  
