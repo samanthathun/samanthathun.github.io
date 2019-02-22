@@ -106,7 +106,7 @@ h3 {
     color: #083D77;
     font-size: 1.5em;
 }
-.weatherdetails {
+.weathersummary {
     position: absolute;
     top: 30px;
     left: 30px;
@@ -114,24 +114,14 @@ h3 {
     border: #ffffff solid .5px;
     font-size: 0.75em;
     padding: 15px;
+}
+.weatherdetails {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: .25rem;
 
 }
-.weatherdetails h3 {
-    /*grid-area: 1 / 1 / span 2;*/
-    margin: 0;
-
-}
-
-/*.label, .value {
-    display: inline;
-    padding: 5px;
-    margin: 5px;
-    
- }*/
 
 .weatherdetails .label {
     text-align: right;
