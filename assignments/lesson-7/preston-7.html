@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rain Sun Snow Weather Site | Preston | Current Weather Information</title>
-    <meta name="description" content="Weather, local news, events, and other important updates for your southeastern Idaho area, including Preston ID">
+    <meta name="description"
+        content="Weather, local news, events, and other important updates for your southeastern Idaho area, including Preston ID">
     <link
         href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Merienda|Open+Sans+Condensed:300|Poiret+One|Questrial|Sacramento|Satisfy"
         rel="stylesheet">
@@ -14,17 +15,17 @@
     <link rel="stylesheet" href="css/large-7.css">
     <link rel="stylesheet" href="css/medium-7.css">
 </head>
-    
+
 <body>
 
-        <header class="headinfo">
-                <img class="sunlogo" src="images/weathersitesunoptimized.png" alt="The sun logo">
-                <div class="headings">
-                    <h1>Rain <strong class="sun">Sun</strong> Snow</h1>
-                    <div class="motto">"Rain or shine, we've got you covered!"</div>
-                </div>
-            </header>
-        
+    <header class="headinfo">
+        <img class="sunlogo" src="images/weathersitesunoptimized.png" alt="The sun logo">
+        <div class="headings">
+            <h1>Rain <strong class="sun">Sun</strong> Snow</h1>
+            <div class="motto">"Rain or shine, we've got you covered!"</div>
+        </div>
+    </header>
+
     <nav>
         <ul class="navigation">
             <li><a class="menu" href="#" title="Menu" onclick="toggleMenu()">&equiv; Menu</a></li>
@@ -40,11 +41,18 @@
     <main>
         <h2>Preston, ID</h2>
         <div class="weatherheader">
-            <picture>
+            
+            <img srcset="images/towncropoptimized500.jpg 500w,
+                        images/towncropoptimized800.jpg 800w" 
+                        sizes="(max-width: 480px),
+                                (max-width: 800px)" 
+                                src="images/towncrop.jpg">
+      
+            <!--<picture>
                 <source media="(max-width: 480px)" srcset="images/towncropoptimized500.jpg 500w">
                 <source media="(max-width: 800px)" srcset="images/towncropoptimized800.jpg 800w">
                 <img class="townimg" src="images/towncrop.jpg" alt="Town Image">
-            </picture>
+            </picture>-->
 
             <div class="weathersummary">
 
