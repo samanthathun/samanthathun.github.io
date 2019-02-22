@@ -8,6 +8,7 @@
     }
     .sunlogo {
         width: 150px;
+        margin: 10px 50px;
     }
     .navigation {
         flex-direction: row;
