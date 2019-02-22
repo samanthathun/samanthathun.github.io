@@ -70,8 +70,9 @@ table, th, td {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+
 .galleryimg:hover {
-box-shadow: 0 0 30px #333;
+    box-shadow: 0 0 30px #333;
 }
 
 
