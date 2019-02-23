@@ -6,7 +6,6 @@ body {
 main, footer {
     max-width: 960px;
     margin: 0 auto;
-
 }
 header, footer {
 	margin: 10px auto;
@@ -17,7 +16,6 @@ header, footer {
     display: flex;
     justify-content: center; 
     align-items: center;
-    
 }
 .sunlogo, .headings {
 	margin: 10px;
@@ -180,12 +178,6 @@ pre {
 .smallesticon {
     width: 15px;
     height: 15px;
-}
-
-footer {
-    padding: 10px;
-    margin: 10px;
-    color: #083D77;
 }
 .footerbar {
     text-align: center;
