@@ -21,6 +21,10 @@
         flex: 1 1 auto;
     
     }
+    .weathersummary {
+        top: 30px;
+        left: 30px;
+    }
     .wrapper {
         grid-template-columns: 1fr 1fr;
         grid-gap: 25px;

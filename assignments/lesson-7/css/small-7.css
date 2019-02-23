@@ -108,8 +108,8 @@ h3 {
 }
 .weathersummary {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 5px;
+    left: 5px;
     background-color:#ffffff;
     border: #FFC857 solid .5px;
 
