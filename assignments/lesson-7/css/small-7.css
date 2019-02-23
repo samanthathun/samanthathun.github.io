@@ -197,3 +197,6 @@ pre {
     object-fit: cover;
     
     }
+figcaption {
+    text-align: center;
+}
