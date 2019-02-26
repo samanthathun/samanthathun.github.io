@@ -4,3 +4,7 @@ body {
     line-height: 32px;
     color: black;
 }
+thead {
+    text-emphasis: bold;
+    background: #628ca6;
+}
