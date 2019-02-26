@@ -3,8 +3,15 @@ body {
     font-size: 16px; 
     line-height: 32px;
     color: black;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
 }
 thead {
     text-emphasis: bold;
     background: #628ca6;
+    text-align: center;
 }
