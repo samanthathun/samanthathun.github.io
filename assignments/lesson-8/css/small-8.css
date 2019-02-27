@@ -91,7 +91,7 @@ nav {
     font-family: 'Open Sans Condensed', Geneva, sans-serif;
     padding: 15px;
 }
-.active {
+a:active {
     background-color: #D6CFCB;
 	color: #ffffff;
 
