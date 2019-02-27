@@ -31,8 +31,11 @@ tfoot td {
 }
 
 
-
+#novsg {
+    background: #628ca6;
+    color: white;
+}
 
 #blackfriday {
-    color: pink;
+    font-style: italic;
 }
