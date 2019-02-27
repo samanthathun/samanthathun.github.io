@@ -10,6 +10,13 @@ table, th, td {
     border-collapse: collapse;
     text-align: center;
     padding: 10px 15px;
+     
+}
+table {
+    box-shadow: 0 0 30px #628ca6;
+}
+.table1 {
+    box-shadow: 0 0 30px #628ca6;
 }
 tr:nth-child(odd) {
     background-color: #e7ffed ;
@@ -23,7 +30,7 @@ th {
     font-size: 1.5em;
 }
 tr:first-child {
-    background-color: #628ca6;
+    background-color: ç;
 }
 tfoot td {
     background: #7fb9c2;
