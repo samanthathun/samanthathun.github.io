@@ -1,0 +1,81 @@
+@media only screen and (min-width: 1000px) {
+ h1 {
+    font-size: 4rem;
+}
+.motto {
+    font-size: 1.25rem;
+}
+.sunlogo {
+    width: 200px;
+}
+   .townimg {
+       height: 500px;
+   }
+.menu {
+    display: none;
+}
+.navigation {
+    flex-direction: row;
+}
+.navigation li:first-child {
+    display: none
+}
+.navigation li {
+    display: block;
+    flex: 1 1 auto;
+
+}
+.weatherdetails {
+    line-height: 30px;
+    padding: 0;
+
+}
+.weatherdetails h3 {
+    margin: 5px;
+}
+.contactsection, .mapouter {
+    padding: 50px;
+}
+
+.forecast {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+
+}
+table {
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  th, td {
+    padding: 15px;
+  }
+  .forecastimg {
+    width: 75px;
+    height: 75px;
+  }
+.farmersmarket {
+    float: right;
+    padding: 20px;
+    width: 260px;
+    height: auto;
+}
+.wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery {
+    box-shadow: 0 0 30px #333;
+    padding: 10px;
+}
+
+.galleryimg:hover {
+    box-shadow: 0 0 30px #333;
+}
+
+
+}

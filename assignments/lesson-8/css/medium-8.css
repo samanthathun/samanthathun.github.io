@@ -1,0 +1,40 @@
+@media only screen and (min-width: 600px) {
+
+       h1 {
+        font-size: 3rem;
+    }
+    .motto {
+        font-size: 1em;
+    }
+    .sunlogo {
+        width: 150px;
+        margin: 10px 50px;
+    }
+    .navigation {
+        flex-direction: row;
+    }
+    .navigation li:first-child {
+        display: none
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    
+    }
+    .weathersummary {
+        top: 30px;
+        left: 30px;
+    }
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+
+
+
+
+
+
+
+
+}
