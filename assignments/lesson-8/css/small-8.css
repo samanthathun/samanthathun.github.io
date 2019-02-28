@@ -201,8 +201,10 @@ figcaption {
     text-align: center;
 }
 .thanks {
+    margin: auto;
     text-align: center;
-    color: #FFC857;
+    color: #083D77;
     height: 200px;
     width: 50%;
+    padding: 10px;
 }
