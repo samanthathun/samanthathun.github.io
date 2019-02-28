@@ -24,6 +24,7 @@ h1 {
     font-size: 2.5rem;
     text-align: center;
     margin: 20px 0 0 0;
+    color: #083D77;
 }
 .motto {
     font-size: 1rem;
@@ -204,35 +205,47 @@ figcaption {
 /*------FORM------*/
 
 form fieldset {
+margin: 3rem;
+padding: 1rem 3rem 1.5rem;
+border: 1px dashed #083D77;
 
 
 }
 
 form legend {
+color: #083D77;
+margin: 0 2rem;
+padding: 1rem 1rem;
 
 }
-.userinfo {
+.userinfo, .storm, .comments, .updatebutton {
     text-align: left;
     font-size: 1rem;
     color: #083D77;
+}
+
+.userinfo {
+
+
 }
 
 .storminfo {
 
+
 }
 .storm {
-    text-align: left;
-    font-size: 1rem;
-    color: #083D77;
+
 }
 
-.userinfo {
-    text-align: left;
-    font-size: 1rem;
-    color: #083D77;
+.comments {
+
+    margin: 3rem;
+
 }
-
-
+textarea {
+    margin: 0;
+    padding: 0;
+}
 
 
 
