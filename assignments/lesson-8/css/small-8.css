@@ -200,6 +200,45 @@ pre {
 figcaption {
     text-align: center;
 }
+
+/*------FORM------*/
+
+form fieldset {
+
+
+}
+
+form legend {
+
+}
+.userinfo {
+    text-align: left;
+    font-size: 1rem;
+    color: #083D77;
+}
+
+.storminfo {
+
+}
+.storm {
+    text-align: left;
+    font-size: 1rem;
+    color: #083D77;
+}
+
+.userinfo {
+    text-align: left;
+    font-size: 1rem;
+    color: #083D77;
+}
+
+
+
+
+
+
+
+
 .thanks {
     margin: auto;
     text-align: center;
