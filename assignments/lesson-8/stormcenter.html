@@ -45,7 +45,7 @@
             <fieldset>
                 <legend>User Information</legend>
 
-                <label>Full Name*<input type="text" name="fullname" required pattern="[A-Za-z]{5}"
+                <label>Full Name*<input type="text" name="fullname" required pattern="([A-Za-z])+( [A-Za-z]+)" {5}
                         title="Full Name at Least 5 Letters"></label>
                 <label>Email*<input type="email" name="email" placeholder="youremail@gmail.com"></label>
                 <label>Phone Number<input type="tel" name="phone" required></label>
