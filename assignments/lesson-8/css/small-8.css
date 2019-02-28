@@ -200,3 +200,9 @@ pre {
 figcaption {
     text-align: center;
 }
+.thanks {
+    text-align: center;
+    color: #FFC857;
+    height: 200px;
+    width: 50%;
+}
