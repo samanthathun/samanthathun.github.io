@@ -204,10 +204,11 @@ figcaption {
 
 /*------FORM------*/
 
-form .userinfo, .storm, .comments, .updatebutton {
+form .userinfo, .storm, .comments, .button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
 
 }
 
@@ -249,8 +250,7 @@ input, select {
 textarea {
     padding: .75rem;
     margin: 10px 0;
-    
-    
+
 }
 .updatebutton {
     background-color: #FFC857;
