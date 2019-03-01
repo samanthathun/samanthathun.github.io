@@ -77,5 +77,20 @@ table, th, td {
     box-shadow: 0 0 30px #333;
 }
 
+/*------FORM------*/
+
+form fieldset {
+    margin: auto;
+   
+}
+.updatebutton {
+   width: 300px;
+    margin: 0 0 2rem 2%;
+    
+}
+
+
+
+
 
 }
