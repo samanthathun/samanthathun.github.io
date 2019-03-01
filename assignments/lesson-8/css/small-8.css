@@ -234,10 +234,11 @@ input, select {
 
 }
 
-.stormseverity {
+.stormseverity, .userdanger {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start;
+
 }
 
 .comments {
