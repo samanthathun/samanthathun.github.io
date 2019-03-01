@@ -31,11 +31,11 @@
         <ul class="navigation">
             <li><a class="menu" href="#" title="Menu" onclick="toggleMenu()">&equiv; Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a class="active" href="#">Preston</a></li>
+            <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a class="active" href="stormcenter.html">Storm Center</a></li>
-            <li><a class="active" href="gallery-8.html">Gallery</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-8.html">Gallery</a></li>
         </ul>
     </nav>
 
@@ -43,17 +43,14 @@
         <h2>Preston, ID</h2>
         <div class="weatherheader">
             
-            <!--<img srcset="images/towncropoptimized500.jpg 500w,
-                        images/towncropoptimized800.jpg 800w" 
-                        sizes="(max-width: 320px),
-                                (max-width: 480px)"
-                                src="images/towncropoptimized800.jpg">-->
+            <img src="images/towncropoptimized800.jpg", srcset="images/towncropoptimized500.jpg 500w" 
+                        sizes="(min-width: 480px) 500w, (min-width: 950px) 1000px">
       
-            <picture>
+            <!--<picture>
                 <source media="(max-width: 480px)" srcset="images/towncropoptimized500.jpg 500w">
                 <source media="(max-width: 800px)" srcset="images/towncropoptimized800.jpg 800w">
                 <img class="townimg" src="images/towncrop.jpg" alt="Town Image">
-            </picture>
+            </picture>-->
 
             <div class="weathersummary">
                     <h3>Weather Summary</h3>
