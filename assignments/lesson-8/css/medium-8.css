@@ -30,9 +30,19 @@
         grid-gap: 25px;
     }
 
+/*------FORM------*/
 
-
-
+    form fieldset {
+        margin: auto;
+       
+    }
+    .comments {
+        margin: 2rem auto 0;
+    }
+    .updatebutton {
+       width: 300px;
+      margin: 2rem auto;
+    }
 
 
 

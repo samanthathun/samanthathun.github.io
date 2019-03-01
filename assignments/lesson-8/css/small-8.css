@@ -209,7 +209,8 @@ form .userinfo, .storm, .comments, .button {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-
+    font-size: 1rem;
+    color: #083D77;
 }
 
 form fieldset {
@@ -226,13 +227,6 @@ form legend {
     padding: 1rem 1rem;
 
 }
-.userinfo, .storm, .comments {
-    text-align: left;
-    font-size: 1rem;
-    color: #083D77;
-    
-}
-
 
 input, select {
     padding: .75rem;
