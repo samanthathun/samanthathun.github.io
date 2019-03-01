@@ -1,5 +1,5 @@
 body {
-    background-color:#D6CFCB;
+    background-color: #DDDDDD;
 	font-size: 16px;
 	font-family: 'Questrial', Geneva, sans-serif;
 }
@@ -243,7 +243,7 @@ padding: 1rem 1rem;
 
 }
 textarea {
-    margin: 0;
+    margin: 3rem;
     padding: 0;
 }
 
