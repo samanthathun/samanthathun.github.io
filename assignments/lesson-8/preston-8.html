@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/small-8.css">
     <link rel="stylesheet" href="css/medium-8.css">
     <link rel="stylesheet" href="css/large-8.css">
-    
+
 </head>
 
 <body>
@@ -42,11 +42,13 @@
     <main>
         <h2>Preston, ID</h2>
         <div class="weatherheader">
-            
-            <img src="images/towncropoptimized800.jpg" 
-            srcset="images/towncropoptimized500.jpg 500w, images/towncropoptimized800.jpg 800w" 
-                        sizes="100vw">
-      
+
+            <picture>
+                <img src="images/towncropoptimized800.jpg" sizes="100vw"
+                    srcset="images/towncropoptimized500.jpg 500w, images/towncropoptimized800.jpg 800w"
+                    alt="Picture of green rolling hills">
+            </picture>
+
             <!--<picture>
                 <source media="(max-width: 480px)" srcset="images/towncropoptimized500.jpg 500w">
                 <source media="(max-width: 800px)" srcset="images/towncropoptimized800.jpg 800w">
@@ -54,7 +56,7 @@
             </picture>-->
 
             <div class="weathersummary">
-                    <h3>Weather Summary</h3>
+                <h3>Weather Summary</h3>
                 <div class="weatherdetails">
                     <div class="label">Currently</div>
                     <div class="value">Rainy</div>
