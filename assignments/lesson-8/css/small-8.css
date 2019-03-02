@@ -255,6 +255,7 @@ input, select {
 textarea {
     padding: .75rem;
     margin: 10px 0;
+    border: 1px solid #083D77;
 
 }
 .updatebutton {
@@ -262,11 +263,11 @@ textarea {
     color: #083D77;
     border: 1px solid #083D77;
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 1rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .thanks {
