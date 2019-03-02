@@ -1,5 +1,5 @@
 body {
-    background-color: #dddddd;
+    background-color: #FFFBED;
 	font-size: 16px;
 	font-family: 'Questrial', Geneva, sans-serif;
 }
@@ -9,10 +9,10 @@ main, footer {
 }
 header, footer {
 	margin: 10px auto;
-	background-color:#FCF6D6;
+	background-color:#083D77;;
 	border: 1px solid #FFC857;
     font-family: 'Poiret One', Charcoal, sans-serif;
-    color: #083D77;
+    color: #ffffff;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -24,7 +24,7 @@ h1 {
     font-size: 2.5rem;
     text-align: center;
     margin: 20px 0 0 0;
-    color: #083D77;
+    color: #ffffff;
 }
 .motto {
     font-size: 1rem;
@@ -209,7 +209,7 @@ figcaption {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    font-size: .85rem;
+    font-size: .90rem;
     color: #083D77;
 }
 
