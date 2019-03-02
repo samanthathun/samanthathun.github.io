@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFBED;
+    background-color: #F2F2F2;
 	font-size: 16px;
 	font-family: 'Questrial', Geneva, sans-serif;
 }
@@ -246,6 +246,9 @@ input, select {
     
 }
 
+input#severity.storm {
+    margin: 0;
+}
 .comments {
     margin: 2rem;
     max-width: 600px;
