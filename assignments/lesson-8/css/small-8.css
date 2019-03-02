@@ -238,7 +238,12 @@ input, select {
     display: flex;
     flex-direction: row;
     justify-content: start;
+    text-align: center;
 
+}
+.storm {
+    padding: 10px;
+    
 }
 
 .comments {
@@ -269,6 +274,12 @@ textarea {
     text-align: center;
     color: #083D77;
     height: 200px;
-    width: 50%;
-    padding: 10px;
+    width: 75%;
+   
 }
+.thanks p {
+    font-size: 1.25rem;
+
+
+}
+
