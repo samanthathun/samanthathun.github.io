@@ -11,6 +11,7 @@ html {
   
   h1, h2 {
     font-family: 'Faster One', cursive;
+    color: red;
   }
   
   /* header styles */
@@ -24,6 +25,7 @@ html {
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
+    color: blue;
   }
   
   /* section styles */
@@ -31,6 +33,7 @@ html {
   section article {
     width: 33%;
     float: left;
+    color: blue;
   }
   
   section p {
@@ -45,4 +48,5 @@ html {
     font-size: 2.5rem;
     letter-spacing: -5px;
     margin-bottom: 10px;
+
   }
