@@ -9,7 +9,7 @@ request.send();
 
 request.onload = function () {
     let towndata = request.response;
-    console.log(towndata);
+   // console.log(towndata);
 
     let town = towndata['towns'];
 
