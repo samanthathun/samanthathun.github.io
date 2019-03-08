@@ -289,3 +289,8 @@ textarea {
 
 }
 
+/*------Homepage------*/
+
+.townbox {
+    display: flex;
+}
