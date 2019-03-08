@@ -24,15 +24,19 @@ request.onload = function () {
             let myP1 = document.createElement('p');
             let myP2 = document.createElement('p');
             let myP3 = document.createElement('p');
-            let prestonimg = ;
-            let sodaspringsimg = ;
-            let fishhavenimg = ;
+            let prestonimg = document.createElement('img');
+            let sodaspringsimg = document.createElement('img');
+            let fishhavenimg = document.createElement('img');
 
             myH3.textContent = town[i].name;
             myH4.textContent = town[i].motto;
             myP1.textContent = "Year Founded: " + town[i].yearFounded;
             myP2.textContent = "Current Population: " + town[i].currentPopulation;
             myP3.textContent = "Average Rainfall: " + town[i].averageRainfall;
+            image.src = "images/prestonhome.jpg"
+            image.src = "images/sodaspringshome.jpg"
+            image.src = "images/fishhavenhome.jpg"
+
 
             divtown.appendChild(myH3);
             divtown.appendChild(myH4);
