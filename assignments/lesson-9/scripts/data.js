@@ -9,7 +9,8 @@ request.send();
 
 request.onload = function () {
     let towndata = request.response;
-   // console.log(towndata);
+
+    console.log(towndata);
 
     let town = towndata['towns'];
 
@@ -34,9 +35,36 @@ request.onload = function () {
             output.appendChild(myP2);
             output.appendChild(myP3);
 
+        } else if (town.name == "Soda Springs") {
+
+            myH2.textContent = town.name;
+            myH3.textContent = town.motto;
+            myP1.textContent = town.yearFounded;
+            myP2.textContent = town.currentPopulation;
+            myP3.textContent = town.averageRainFall;
+
+            output.appendChild(myH2);
+            output.appendChild(myH3);
+            output.appendChild(myP1);
+            output.appendChild(myP2);
+            output.appendChild(myP3);
+
+        } else if (town.name == "Fish Haven") {
+
+            myH2.textContent = town.name;
+            myH3.textContent = town.motto;
+            myP1.textContent = town.yearFounded;
+            myP2.textContent = town.currentPopulation;
+            myP3.textContent = town.averageRainFall;
+
+            output.appendChild(myH2);
+            output.appendChild(myH3);
+            output.appendChild(myP1);
+            output.appendChild(myP2);
+            output.appendChild(myP3);
+
         }
     }
-
-
 }
+
 
