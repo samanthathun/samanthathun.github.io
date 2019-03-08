@@ -302,6 +302,14 @@ textarea {
     border: 1px solid #083D77;
 }
 
+h4 {
+    color: #083D77;
+}
+
+.threetowns p {
+    color: #083D77;
+}
+
 .wheatfield, .greentown, .autumn {
     width: 200px;
     height: auto;
