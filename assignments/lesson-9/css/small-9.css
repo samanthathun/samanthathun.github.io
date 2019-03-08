@@ -295,3 +295,14 @@ textarea {
     display: flex;
     justify-content: space-evenly;
 }
+
+.townbox {
+    border: 1px solid #083D77;
+}
+
+.wheatfield, .greentown, .snowbarn, .autumn {
+    width: 200px;
+    height: auto;
+}
+
+
