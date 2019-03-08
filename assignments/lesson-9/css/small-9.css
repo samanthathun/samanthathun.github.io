@@ -302,9 +302,14 @@ textarea {
     border: 1px solid #083D77;
 }
 
-.wheatfield, .greentown, .snowbarn, .autumn {
+.wheatfield, .greentown, .autumn {
     width: 200px;
     height: auto;
+}
+
+.snowbarn {
+    width: 200px;
+    height:132.8px;
 }
 
 
