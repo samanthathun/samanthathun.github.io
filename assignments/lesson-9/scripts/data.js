@@ -1,4 +1,4 @@
-let output = document.querySelector('section');
+let output = document.querySelector('div.threetowns');
 
 
 let requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
@@ -10,32 +10,18 @@ request.send();
 request.onload = function () {
     let towndata = request.response;
 
-    console.log(towndata);
 
     let town = towndata['towns'];
 
     for (let i = 0; i < town.length; i++) {
-        if (town.name == "Preston") {
-
+        if (town.name == "Preston" || "Soda Springs" || "Fish Haven" ) {
+            let divtown =document.createElement('div.townbox');
             let myH2 = document.createElement('h2');
             let myH3 = document.createElement('h3');
             let myP1 = document.createElement('p');
             let myP2 = document.createElement('p');
             let myP3 = document.createElement('p');
 
-            myH2.textContent = town.name;
-            myH3.textContent = town.motto;
-            myP1.textContent = town.yearFounded;
-            myP2.textContent = town.currentPopulation;
-            myP3.textContent = town.averageRainFall;
-
-            output.appendChild(myH2);
-            output.appendChild(myH3);
-            output.appendChild(myP1);
-            output.appendChild(myP2);
-            output.appendChild(myP3);
-
-        } else if (town.name == "Soda Springs") {
 
             myH2.textContent = town.name;
             myH3.textContent = town.motto;
@@ -43,26 +29,15 @@ request.onload = function () {
             myP2.textContent = town.currentPopulation;
             myP3.textContent = town.averageRainFall;
 
-            output.appendChild(myH2);
-            output.appendChild(myH3);
-            output.appendChild(myP1);
-            output.appendChild(myP2);
-            output.appendChild(myP3);
 
-        } else if (town.name == "Fish Haven") {
+            divtown.appendChild(myH2);
+            divtown.appendChild(myH3);
+            divtown.appendChild(myP1);
+            divtown.appendChild(myP2);
+            divtown.appendChild(myP3);
+            output.appendChild(divtown);
 
-            myH2.textContent = town.name;
-            myH3.textContent = town.motto;
-            myP1.textContent = town.yearFounded;
-            myP2.textContent = town.currentPopulation;
-            myP3.textContent = town.averageRainFall;
-
-            output.appendChild(myH2);
-            output.appendChild(myH3);
-            output.appendChild(myP1);
-            output.appendChild(myP2);
-            output.appendChild(myP3);
-
+    
         }
     }
 }
