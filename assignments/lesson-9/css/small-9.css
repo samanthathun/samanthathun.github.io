@@ -313,6 +313,15 @@ h4 {
     color: #083D77;
 }
 
+article {
+    padding: 100px 20px;
+}
+
+.autumn {
+    float: left;
+    padding: 20px;
+}
+
 .wheatfield, .greentown, .autumn {
     width: 200px;
     height: auto;
