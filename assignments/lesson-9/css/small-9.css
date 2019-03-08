@@ -293,4 +293,5 @@ textarea {
 
 .threetowns {
     display: flex;
+    justify-content: space-evenly;
 }
