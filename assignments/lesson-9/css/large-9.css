@@ -81,8 +81,8 @@ table, th, td {
 /*------Home------*/
 
 .threetowns {
-justify-content: space-evenly;
-
+    flex-direction: row;
+    
 }
 
 
