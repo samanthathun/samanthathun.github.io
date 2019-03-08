@@ -10,11 +10,13 @@ request.send();
 request.onload = function () {
     let towndata = request.response;
 
+    console.log(towndata);
 
     let town = towndata['towns'];
 
     for (let i = 0; i < town.length; i++) {
-        if (town.name == "Preston" || "Soda Springs" || "Fish Haven" ) {
+        console.log(town.name);
+        if (town.name == "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven" ) {
             let divtown =document.createElement('div.townbox');
             let myH2 = document.createElement('h2');
             let myH3 = document.createElement('h3');
