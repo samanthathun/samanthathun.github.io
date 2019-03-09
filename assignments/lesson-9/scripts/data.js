@@ -43,15 +43,17 @@ request.onload = function () {
 
     }
 
-    function image(thisImg) {
+
+    function image() {
+        
         let prestonimg = document.createElement('img');
         let sodaspringsimg = document.createElement('img');
         let fishhavenimg = document.createElement('img');
 
 
-        img.src = "images/prestonhome.jpg" + thisImg;
-        img.src = "images/sodaspringshome.jpg" + thisImg;
-        img.src = "images/fishhavenhome.jpg" + thisImg;
+        img.src = "images/prestonhome.jpg";
+        img.src = "images/sodaspringshome.jpg";
+        img.src = "images/fishhavenhome.jpg";
 
 
         document.getElementById('x').appendChild(prestonimg);
