@@ -25,7 +25,9 @@ request.onload = function () {
             let myP2 = document.createElement('p');
             let myP3 = document.createElement('p');
 
-            let prestonimg = document.createElement('img');
+            let img = document.createElement('img');
+            let sodaspringsimg = document.createElement('img');
+            let fishhavenimg = document.createElement('img');
 
             myH3.textContent = town[i].name;
             myH4.textContent = town[i].motto;
@@ -35,6 +37,8 @@ request.onload = function () {
 
 
             img.src = "images/prestonhome.jpg";
+            sodaspringsimg.src = "images/sodaspringshome.jpg";
+            fishhavenimg.src = "images/fishhavenhome.jpg";
 
             divtown.appendChild(myH3);
             divtown.appendChild(myH4);
@@ -44,7 +48,9 @@ request.onload = function () {
 
             output.appendChild(divtown);
 
-            document.getElementById('pic').appendChild(prestonimg);
+            document.getElementById('pic').appendChild(img);
+            document.getElementById('pic1').appendChild(sodaspringsimg);
+            document.getElementById('pic2').appendChild(fishhavenimg);
 
         }
 
@@ -52,17 +58,13 @@ request.onload = function () {
 
 
 
-    // let sodaspringsimg = document.createElement('img');
-    // let fishhavenimg = document.createElement('img');
-
-
-    //  img.src = "images/sodaspringshome.jpg";
-    //  img.src = "images/fishhavenhome.jpg";
+    
 
 
 
-    //  document.getElementById('').appendChild(sodaspringsimg);
-    //  document.getElementById('').appendChild(fishhavenimg);
+
+
+
 
 
 

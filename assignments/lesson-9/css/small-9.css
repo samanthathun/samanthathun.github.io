@@ -327,14 +327,9 @@ article {
     padding: 20px;
 }
 
-.wheatfield, .greentown, .autumn {
-    width: 200px;
+.wheatfield, .greentown, .autumn, .snowbarn {
+    width: 100px;
     height: auto;
-}
-
-.snowbarn {
-    width: 200px;
-    height:132.8px;
 }
 
 
