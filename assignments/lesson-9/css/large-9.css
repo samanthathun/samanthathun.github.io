@@ -84,7 +84,9 @@ table, th, td {
     flex-direction: row;
     
 }
-
+.autumn {
+    float: left;
+}
 
 
 }

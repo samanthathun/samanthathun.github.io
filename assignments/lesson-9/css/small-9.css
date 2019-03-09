@@ -303,7 +303,7 @@ textarea {
     border: 1px solid #083D77;
     flex-basis: 25%;
     padding: 10px;
-
+    margin: 25px;
 }
 
 h4 {
@@ -316,11 +316,14 @@ h4 {
 }
 
 article {
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
 
 .autumn {
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     padding: 20px;
 }
 

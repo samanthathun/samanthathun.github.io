@@ -25,11 +25,16 @@ request.onload = function () {
             let myP2 = document.createElement('p');
             let myP3 = document.createElement('p');
 
+            let prestonimg = document.createElement('img');
+
             myH3.textContent = town[i].name;
             myH4.textContent = town[i].motto;
             myP1.textContent = "Year Founded: " + town[i].yearFounded;
             myP2.textContent = "Current Population: " + town[i].currentPopulation;
             myP3.textContent = "Average Rainfall: " + town[i].averageRainfall;
+
+
+            img.src = "images/prestonhome.jpg";
 
             divtown.appendChild(myH3);
             divtown.appendChild(myH4);
@@ -39,31 +44,27 @@ request.onload = function () {
 
             output.appendChild(divtown);
 
+            document.getElementById('pic').appendChild(prestonimg);
+
         }
 
     }
 
 
-    function image() {
-        
-        let prestonimg = document.createElement('img');
-        let sodaspringsimg = document.createElement('img');
-        let fishhavenimg = document.createElement('img');
+
+    // let sodaspringsimg = document.createElement('img');
+    // let fishhavenimg = document.createElement('img');
 
 
-        img.src = "images/prestonhome.jpg";
-        img.src = "images/sodaspringshome.jpg";
-        img.src = "images/fishhavenhome.jpg";
+    //  img.src = "images/sodaspringshome.jpg";
+    //  img.src = "images/fishhavenhome.jpg";
 
 
-        document.getElementById('x').appendChild(prestonimg);
-        document.getElementById('x').appendChild(sodaspringsimg);
-        document.getElementById('x').appendChild(fishhavenimg);
 
-    }
-    if (town[i].name == "Preston" || town[i].name == "Soda Springs" || town[i].name == "Fish Haven") {
-        image('prestonhome.jpg');
-    }
+    //  document.getElementById('').appendChild(sodaspringsimg);
+    //  document.getElementById('').appendChild(fishhavenimg);
+
+
 
 
 }
