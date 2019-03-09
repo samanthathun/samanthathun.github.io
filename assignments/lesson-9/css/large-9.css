@@ -81,15 +81,12 @@ table, th, td {
 /*------Home------*/
 
 .threetowns {
-    flex-wrap: nowrap;
     flex-direction: row;
     
 }
 .autumn {
     float: left;
 }
-.townbox {
 
-}
 
 }
