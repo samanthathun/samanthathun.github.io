@@ -11,7 +11,7 @@ request.onload = function () {
     let towndata = request.response;
 
 
-
+    let number = 0;
     let town = towndata['towns'];
     console.log(town);
     for (let i = 0; i < town.length; i++) {
@@ -29,6 +29,11 @@ request.onload = function () {
             let sodaspringsimg = document.createElement('img');
             let fishhavenimg = document.createElement('img');
 
+            img.src = "images/prestonhome.jpg";
+            sodaspringsimg.src = "images/sodaspringshome.jpg";
+            fishhavenimg.src = "images/fishhavenhome.jpg";
+
+
             myH3.textContent = town[i].name;
             myH4.textContent = town[i].motto;
             myP1.textContent = "Year Founded: " + town[i].yearFounded;
@@ -36,9 +41,6 @@ request.onload = function () {
             myP3.textContent = "Average Rainfall: " + town[i].averageRainfall;
 
 
-            img.src = "images/prestonhome.jpg";
-            sodaspringsimg.src = "images/sodaspringshome.jpg";
-            fishhavenimg.src = "images/fishhavenhome.jpg";
 
             divtown.appendChild(myH3);
             divtown.appendChild(myH4);
@@ -48,27 +50,23 @@ request.onload = function () {
 
             output.appendChild(divtown);
 
-            document.getElementById('pic').appendChild(img);
-            document.getElementById('pic1').appendChild(sodaspringsimg);
-            document.getElementById('pic2').appendChild(fishhavenimg);
+            switch (number) {
+                case 0: divtown.appendChild(img);
+                    break;
+
+                case 1: divtown.appendChild(sodaspringsimg);
+
+                    break;
+                case 2: divtown.appendChild(fishhavenimg);
+            }
+            number++;
 
         }
 
+
+
+
     }
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
 }
 
 

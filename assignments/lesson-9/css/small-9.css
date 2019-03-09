@@ -301,18 +301,23 @@ textarea {
 
 .townbox {
     border: 1px solid #083D77;
-    flex-basis: 25%;
     padding: 10px;
     margin: 25px;
+    flex-basis: 25%;
 }
 
 h4 {
     color: #083D77;
+    width: 250px;
 }
 
 .threetowns p {
     color: #083D77;
 
+}
+.threetowns img {
+    width: 250px;
+    height: 150px;
 }
 
 article {
@@ -323,13 +328,10 @@ article {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 250px;
+    height: 350px;
     padding: 20px;
 }
 
-.wheatfield, .greentown, .autumn, .snowbarn {
-    width: 100px;
-    height: auto;
-}
 
 
