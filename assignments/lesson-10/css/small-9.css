@@ -1,0 +1,348 @@
+body {
+    background-color: #F2F2F2;
+	font-size: 16px;
+	font-family: 'Questrial', Geneva, sans-serif;
+}
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header, footer {
+	margin: 10px auto;
+	background-color:#083D77;;
+	border: 1px solid #FFC857;
+    font-family: 'Poiret One', Charcoal, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.sunlogo, .headings {
+	margin: 10px;
+}
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+}
+.motto {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+.sun {
+color: #FFC857;
+font-family: "sacramento"
+}
+.sunlogo {
+    width: 80px;
+    height: auto;
+    margin: 10px 0 10px 0;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #083D77;
+}
+.townimg{
+    width: 100%;
+    height: 100%;
+}
+nav {
+    margin: 0 auto;
+    background-color: #FFC857;
+	text-align: center;
+	padding: 10px;
+	overflow: hidden;
+}
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.navigation li:first-child { 
+    display: block;
+}
+.navigation li { 
+    display: none;
+}
+.navigation a:hover {
+    color: #ffffff;
+	background-color: #083D77;
+}
+
+.responsive {
+    display: block;
+}
+.responsive li {
+    display: block;
+}
+
+.navigation a {
+    display: block;
+    color: #083D77;
+	text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Open Sans Condensed', Geneva, sans-serif;
+    padding: 15px;
+}
+a.active {
+    background-color: #D6CFCB;
+	color: #ffffff;
+
+}
+.weatherheader {
+  position: relative; 
+ 
+}
+h3 {
+    text-align: center;
+    color: #083D77;
+    font-size: 1.5rem;
+    margin: 15px;
+}
+.weathersummary {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color:#ffffff;
+    border: #FFC857 solid .5px;
+    padding: 10px 0;
+}
+.weatherdetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .25rem;
+
+}
+.weatherdetails .label {
+    font-size: 1.25rem;
+    color: #083D77;
+    text-align: right;
+    padding: 0 0 0 15px;
+
+}
+.weatherdetails .value {
+    color: #FFC857;
+    padding: 0 15px 0 30px;
+
+}
+
+.forecast {
+    display: none;
+    color: #083D77;
+
+}
+
+.farmersmarket{
+    width: 200px;
+    height: auto;
+    margin: 1rem 2%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 0 0;
+}
+
+pre {
+    color: #083D77;
+    font-size: .75rem;
+}
+.farmersmarketarticle {
+    color: #083D77;
+    padding: 20px;
+
+}
+.contactmap {
+    clear: both;
+    margin: 10px;
+    text-align: center;
+
+}
+.contactsection, .mapouter {
+    display: inline-block;
+    color: #083D77;
+}
+.mapouter {
+    padding: 20px 0;
+}
+
+.smallicon {
+    width: 25px;
+    height: 25px;
+}
+.smallesticon {
+    width: 15px;
+    height: 15px;
+}
+.footerbar {
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+
+}
+.galleryimg {
+    width: 100%;
+    object-fit: cover;
+    
+    }
+figcaption {
+    text-align: center;
+}
+
+/*------FORM------*/
+
+.userinfo, .storm, .comments, .button, .stormtype{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: .90rem;
+    color: #083D77;
+}
+
+form fieldset {
+    margin: 10px;
+    border: 1px dashed #083D77;
+    max-width: 600px;
+    
+}   
+
+form legend {
+    color: #083D77;
+    margin: 0 2rem;
+    padding: 1rem 1rem;
+
+}
+
+input, select {
+    padding: .75rem;
+    margin: .25rem .75rem 1.5rem;
+    border: 1px solid #083D77;
+
+}
+input:focus {
+    border: 3px solid #FFC857;
+  }
+
+.stormseverity, .userdanger {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: center;
+
+}
+.storm {
+    padding: 10px;
+    
+}
+
+input#severity.storm {
+    margin: 0;
+}
+.comments {
+    margin: 2rem;
+    max-width: 600px;
+
+}
+textarea {
+    padding: .75rem;
+    margin: 10px 0;
+    border: 1px solid #083D77;
+
+}
+.updatebutton {
+    background-color: #FFC857;
+    color: #083D77;
+    border: 1px solid #083D77;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.thanks {
+    margin: auto;
+    text-align: center;
+    color: #083D77;
+    height: 200px;
+    width: 75%;
+   
+}
+.thanks p {
+    font-size: 1.25rem;
+
+
+}
+
+/*------Homepage------*/
+
+.hometownpic {
+width: 100%;
+height: 250px;
+margin: 0 0 40px;
+}
+
+.threetowns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.townbox {
+    border: 1px solid #083D77;
+    padding: 10px;
+    margin: 25px;
+    flex-basis: 25%;
+
+    box-shadow: 0 0 30px #333;
+    padding: 10px;
+}
+
+h4 {
+    color: #083D77;
+    width: 250px;
+}
+
+.threetowns p {
+    color: #083D77;
+
+}
+.threetowns img {
+    width: 250px;
+    height: 175px;
+}
+
+article p {
+    padding: 80px 20px;
+    color: #083D77;
+}
+
+.autumn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+}
+
+
+
