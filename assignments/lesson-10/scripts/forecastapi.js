@@ -1,11 +1,11 @@
-let weatherRequest = new XMLHttpRequest();
+let forecastRequest = new XMLHttpRequest();
 let apiURLstring = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b3f937ac836b548fdae15d52ba76d87b";
-weatherRequest.open("Get", apiURLstring, true);
-weatherRequest.send();
+forecastRequest.open("Get", apiURLstring, true);
+forecastRequest.send();
 
-weatherRequest.onload = function() {
+forecastRequest.onload = function() {
 
-    let weatherData = JSON.parse(weatherRequest.responseText);
+    let weatherData = JSON.parse(forecastRequest.responseText);
 //console.log(weatherData);
 document.getElementById("current-temp").innerHTML=weatherData.main.temp;
 
