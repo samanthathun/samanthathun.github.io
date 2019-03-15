@@ -12,16 +12,16 @@ forecastRequest.onload = function () {
     let counter = 0;
 
     for (let i = 0; i < forecastData.list.length; i++) {
-        if (forecastData.list[i].dt_text == '18:00:00') {
-            hightempforecast[counter] = list.main.temp;
+        if (forecastData.list[i].dt_txt.match(/18:00:00/)) {
+            hightempforecast[counter] = forecastData.list[i].main.temp;
 
             counter++;
 
         }
 
-        for (let i = 0; i <= 5; i++) {
-
-            document.getElementById('current-temp' + i).innerHTML = hightempforecast[i];
+        for (let i = 1; i <= 5; i++) {
+        
+            document.getElementById('current-temp' + i).innerHTML = hightempforecast[i-1];
 
         }
 
