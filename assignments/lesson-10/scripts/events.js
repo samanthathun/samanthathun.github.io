@@ -11,7 +11,7 @@ prestonrequest.onload = function () {
     let prestondata = prestonrequest.response;
 
     let preston = prestondata['towns'];
-    //console.log(preston);
+    console.log(preston);
     for (let i = 0; i < preston.length; i++) {
 
         if (preston[i].events == "Preston") {
