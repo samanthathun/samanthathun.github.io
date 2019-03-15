@@ -6,7 +6,7 @@ weatherRequest.send();
 weatherRequest.onload = function() {
 
     let weatherData = JSON.parse(weatherRequest.responseText);
-console.log(weatherData);
+//console.log(weatherData);
 document.getElementById("currently").innerHTML=weatherData.weather[0].description;
 document.getElementById("temp").innerHTML=weatherData.main.temp_max;
 document.getElementById("humidity").innerHTML=weatherData.main.humidity;
