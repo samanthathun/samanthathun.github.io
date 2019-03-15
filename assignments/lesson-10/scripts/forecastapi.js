@@ -10,21 +10,20 @@ forecastRequest.onload = function () {
 
     let hightempforecast = [];
     let counter = 0;
-    //let hour;
+
     for (let i = 0; i < forecastData.list.length; i++) {
-        if (forecastData.dt_text == '18:00:00') {
+        if (forecastData.list[i].dt_text == '18:00:00') {
             hightempforecast[counter] = list.main.temp;
 
-        counter++;
+            counter++;
 
         }
 
         for (let i = 0; i <= 5; i++) {
-            document.getElementById('current-temp').innerHTML = hightempforecast[i];
 
+            document.getElementById('current-temp' + i).innerHTML = hightempforecast[i];
 
         }
-
 
         //let icon = "http://openweathermap.org/img/w/" + forecastData.weather[0].icon + ".png";
         //let desc = "forecastData.weather[0].descripion";
@@ -32,6 +31,6 @@ forecastRequest.onload = function () {
         //document.getElementById("cc-img").setAttribute('src', icon);
         //document.getElementById("cc-img").setAttribute('alt', desc);
 
-    }
 
+    }
 }
