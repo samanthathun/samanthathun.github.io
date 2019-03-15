@@ -12,7 +12,7 @@ forecastRequest.onload = function () {
     let counter = 0;
     //let hour;
     for (let i = 0; i < forecastData.list.length; i++) {
-        if (forecastData[i].dt_text == '18:00:00') {
+        if (forecastData.dt_text == '18:00:00') {
             hightempforecast[counter] = list.main.temp;
 
         counter++;
