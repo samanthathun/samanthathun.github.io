@@ -14,15 +14,17 @@ prestonrequest.onload = function () {
     console.log(preston);
     for (let i = 0; i < preston.length; i++) {
 
-        if (preston[i].events == "Preston") {
-            let paragraphpreston = document.createElement('p');
+        if (preston[i].name == "Preston") {
+            let paragraphpreston = document.createElement('section');
             paragraphpreston.setAttribute('class', 'eventarticle');
 
-            paragraphpreston.textContent = preston[i].events;
+            let p1 = document.createElement('p');
 
-            paragraphpreston.appendChild(paragraphpreston);
+            p1.textContent = preston[i].events;
 
-            eventoutput.appendChild(preston);
+            paragraphpreston.appendChild(p1);
+
+            eventoutput.appendChild(paragraphpreston);
 
         }
     }
