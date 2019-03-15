@@ -12,7 +12,10 @@ document.getElementById("temp").innerHTML=weatherData.main.temp_max;
 document.getElementById("humidity").innerHTML=weatherData.main.humidity;
 document.getElementById("wind").innerHTML=weatherData.wind.speed;
 
+let wind = parseInt(weatherData.wind.speed, 10);
+let temp = parseInt(weatherData.main.temp_max, 10);
 
+windchill(wind, temp);
 
 
 
