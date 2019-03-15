@@ -139,7 +139,9 @@ h3 {
     color: #083D77;
 
 }
-
+.events {
+    position: relative; 
+}
 .farmersmarket{
     width: 200px;
     height: auto;
@@ -190,8 +192,6 @@ pre {
     color: #ffffff;
 
 }
-
-
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
