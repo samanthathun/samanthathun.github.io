@@ -142,6 +142,7 @@ h3 {
 .events {
     position: relative; 
 }
+
 .farmersmarket{
     width: 200px;
     height: auto;
@@ -161,6 +162,9 @@ pre {
     color: #083D77;
     padding: 20px;
 
+}
+div.events {
+    color: #083D77;
 }
 .contactmap {
     clear: both;
