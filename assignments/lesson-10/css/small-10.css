@@ -186,6 +186,11 @@ pre {
     text-align: center;
     padding: 10px;
 }
+.footerbar, a {
+    color: #ffffff;
+
+}
+
 
 .wrapper {
     display: grid;
