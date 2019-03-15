@@ -1,4 +1,4 @@
-let eventoutput = document.querySelector('article.eventspreston');
+let eventoutput = document.querySelector('section.eventspreston');
 
 
 let prestonrequestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
@@ -22,7 +22,7 @@ prestonrequest.onload = function () {
 
             paragraphpreston.appendChild(paragraphpreston);
 
-            output.appendChild(preston);
+            eventoutput.appendChild(preston);
 
         }
     }
