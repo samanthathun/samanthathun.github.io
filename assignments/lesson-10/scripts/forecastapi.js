@@ -9,8 +9,7 @@ forecastRequest.onload = function () {
 
 
     console.log(forecastData);
-
-
+    console.log(forecastData.list[6].weather[0].icon);
 
     var day = new Date();
     var weekday = new Array(7);
@@ -22,54 +21,38 @@ forecastRequest.onload = function () {
     weekday[5] = "Friday";
     weekday[6] = "Saturday";
 
-    var n = weekday[day.getDay() + 1];
+     for (i = 1; i <= 5; i++) {
+     var n = weekday[(day.getDay()+ i)%7];
+      document.getElementById("forecastday" + i).innerHTML = n ;
 
-    document.getElementById("forecastday").innerHTML = n;
+     }
 
 
 
     let hightempforecast = [];
     let counter = 0;
-
+    let images = [];
 
     for (let i = 0; i < forecastData.list.length; i++) {
         if (forecastData.list[i].dt_txt.match(/18:00:00/)) {
             hightempforecast[counter] = forecastData.list[i].main.temp;
-
+            images[counter] = forecastData.list[i].weather[0].icon;
             counter++;
-           
-            }
-
-            for (let i = 1; i <= 5; i++) {
-
-                document.getElementById('current-temp' + i).innerHTML = hightempforecast[i - 1];
-
-
-
-            }
-
+            document.getElementById("cc-img" + counter).setAttribute('alt', forecastData.list[i].weather[0].description );
         }
+    }
 
-        let icon = "http://openweathermap.org/img/w/10d.png";
-        let desc = "forecastData.weather.description";
+    for (let i = 1; i <= 5; i++) {
 
+        document.getElementById('current-temp' + i).innerHTML = hightempforecast[i - 1];
+        let icon = "http://openweathermap.org/img/w/" + images[i - 1] + ".png";
 
-        for (let i = 0; i < forecastdata.list.length; i++) {
-            if (forecastData.list[i].dt_txt.match(/18:00:00/)) {
-                hightempforecast[counter] = icon;
-
-                counter++
-            }
-            for (let i = 1; i <= 5; i++) {
-
-                document.getElementById("cc-img").setAttribute('src', icon);
-                document.getElementById("cc-img").setAttribute('alt', desc);
-
-                document.getElementById('cc-img' + i).innerHTML = icon[i - 1];
-
-            }
+        document.getElementById("cc-img" + i).setAttribute('src', icon);
 
 
-        }
+
+
+
 
     }
+}
