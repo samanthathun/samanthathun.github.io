@@ -11,6 +11,7 @@ forecastRequest.onload = function () {
     let hightempforecast = [];
     let counter = 0;
 
+
     for (let i = 0; i < forecastData.list.length; i++) {
         if (forecastData.list[i].dt_txt.match(/18:00:00/)) {
             hightempforecast[counter] = forecastData.list[i].main.temp;
@@ -20,17 +21,25 @@ forecastRequest.onload = function () {
         }
 
         for (let i = 1; i <= 5; i++) {
-        
-            document.getElementById('current-temp' + i).innerHTML = hightempforecast[i-1];
+
+            document.getElementById('current-temp' + i).innerHTML = hightempforecast[i - 1];
 
         }
 
-        //let icon = "http://openweathermap.org/img/w/" + forecastData.weather[0].icon + ".png";
-        //let desc = "forecastData.weather[0].descripion";
-
-        //document.getElementById("cc-img").setAttribute('src', icon);
-        //document.getElementById("cc-img").setAttribute('alt', desc);
-
-
     }
+
+
+    let icon = "http://openweathermap.org/img/w/" + forecastData.weather[0].icon + ".png";
+    let desc = "forecastData.weather[0].descripion";
+
+    document.getElementById("cc-img").setAttribute('src', icon);
+    document.getElementById("cc-img").setAttribute('alt', desc);
+
+
+
+
+
+
 }
+
+
