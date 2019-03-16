@@ -8,8 +8,7 @@ forecastRequest.onload = function () {
     let forecastData = JSON.parse(forecastRequest.responseText);
 
 
-    console.log(forecastData);
-    console.log(forecastData.list[6].weather[0].icon);
+    //console.log(forecastData);
 
     var day = new Date();
     var weekday = new Array(7);
