@@ -29,8 +29,11 @@ forecastRequest.onload = function () {
     }
 
 
+
     let icon = "http://openweathermap.org/img/w/" + forecastData.weather[0].icon + ".png";
-    let desc = "forecastData.weather[0].descripion";
+    let desc = "forecastData.weather[0].description";
+
+
 
     document.getElementById("cc-img").setAttribute('src', icon);
     document.getElementById("cc-img").setAttribute('alt', desc);
