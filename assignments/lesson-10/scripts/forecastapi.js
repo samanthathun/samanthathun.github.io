@@ -21,11 +21,11 @@ forecastRequest.onload = function () {
     weekday[5] = "Friday";
     weekday[6] = "Saturday";
 
-     for (i = 1; i <= 5; i++) {
-     var n = weekday[(day.getDay()+ i)%7];
-      document.getElementById("forecastday" + i).innerHTML = n ;
+    for (i = 1; i <= 5; i++) {
+        var n = weekday[(day.getDay() + i) % 7];
+        document.getElementById("forecastday" + i).innerHTML = n;
 
-     }
+    }
 
 
 
@@ -38,7 +38,7 @@ forecastRequest.onload = function () {
             hightempforecast[counter] = forecastData.list[i].main.temp;
             images[counter] = forecastData.list[i].weather[0].icon;
             counter++;
-            document.getElementById("cc-img" + counter).setAttribute('alt', forecastData.list[i].weather[0].description );
+            document.getElementById("cc-img" + counter).setAttribute('alt', forecastData.list[i].weather[0].description);
         }
     }
 
