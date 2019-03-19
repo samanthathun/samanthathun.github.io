@@ -11,9 +11,9 @@
         href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Merienda|Open+Sans+Condensed:300|Poiret+One|Questrial|Sacramento|Satisfy"
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small-10.css">
-    <link rel="stylesheet" href="css/medium-10.css">
-    <link rel="stylesheet" href="css/large-10.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 
 </head>
 
@@ -43,17 +43,18 @@
         <h2>Preston, ID</h2>
         <div class="weatherheader">
 
-            <!-- <picture>
-                <img src="images/towncropoptimized800.jpg" sizes="100vw"
-                    srcset="images/towncropoptimized500.jpg 500w, images/towncropoptimized800.jpg 800w"
-                    alt="Picture of green rolling hills">
-            </picture>-->
-
             <picture>
+                <source srcset="images/prestontownoptimized500.jpg" media="(min-width: 800px)">
+                <source srcset="images/prestontownoptimized800.jpg" media="(min-width: 500px) and (max-width:799px)">
+                <img class="townimg" src="images/prestontownoptimized.jpg" alt="green grassy hill with mountains">
+
+            </picture>
+
+            <!-- <picture>
                 <source media="(max-width: 480px)" srcset="images/prestontownoptimized500.jpg 500w">
                 <source media="(max-width: 800px)" srcset="images/prestontownoptimized800.jpg 800w">
                 <img class="townimg" src="images/prestontowncrop.jpg" alt="Town Image">
-            </picture>
+            </picture>-->
 
             <div class="weathersummary">
                 <h3>Weather Summary</h3>
