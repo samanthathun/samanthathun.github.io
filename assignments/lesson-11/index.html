@@ -43,7 +43,11 @@
 
         <h2>Home</h2>
 
-        <img class="hometownpic" src="images/farmtownpicoptimized.jpeg" alt="green farm town with cloudy mountain">
+        <picture>
+                <source srcset="images/weatherhomepageoptimized800.jpg" media="(min-width: 800px)">
+                <source srcset="images/weatherhomepageoptimized900.jpg" media="(min-width: 500px) and (max-width:799px)">
+                <img class="townimg" src="images/weatherhomepageoptimized500.jpg" alt="green grassy hill with flowers">
+            </picture>
 
         <div class="threetowns"></div>
 
