@@ -12,24 +12,28 @@ prestonrequest.onload = function () {
 
     let preston = prestondata['towns'];
 
-    //console.log(preston);
-    
+    console.log(preston);
+
     for (let i = 0; i < preston.length; i++) {
 
         if (preston[i].name == "Preston") {
-            let listpreston = document.createElement('section');
+
+            let listpreston = document.createElement('ul');
             listpreston.setAttribute('class', 'eventarticle');
 
+            let list1 = preston[i].events;
+            
+            for (let j = 0; j < list1.length; j++) {
 
-    
-            let list1 = document.createElement('ul');
+                let listitem = document.createElement('li');
+                listitem.textContent = list1[j];
 
-            list1.textContent = preston[i].events;
+                listpreston.appendChild(listitem);
+                document.getElementById('events').appendChild(listpreston);
+            }
 
-            listpreston.appendChild(list1);
-
-            eventoutput.appendChild(listpreston);
-
+            
         }
     }
+
 }
