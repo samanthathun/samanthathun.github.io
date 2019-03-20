@@ -131,9 +131,7 @@ h3 {
 .weatherdetails .value {
     color: #FFC857;
     padding: 0 15px 0 30px;
-
 }
-
 .forecast {
     display: none;
     color: #083D77;
@@ -194,8 +192,35 @@ div.events {
 }
 .footerbar, a {
     color: #ffffff;
+}
+small a {
+    color: #FFC857;
+}
+.gridfishhaven {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+}
+.fishhavenforecast {
+    display: none;
+    color: #083D77;
+   
+}
+.fishhavenarticle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    align-items: center;
+    justify-items: center;
+}
+.campingimg {
+    width: 200px;
+    height: auto;
+}
+.campingarticle {
 
 }
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -340,7 +365,6 @@ h4 {
 }
 
 article p {
-    padding: 80px 20px;
     color: #083D77;
 }
 

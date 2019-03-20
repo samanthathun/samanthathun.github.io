@@ -30,10 +30,24 @@
         padding: 20px;
 
     }
+   
     .wrapper {
         grid-template-columns: 1fr 1fr;
         grid-gap: 25px;
     }
+/*-----Fish Haven------*/
+
+.fishhavenforecast {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+
+}
+.fishhavenarticle {
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    grid-gap: 10px;
+}
 
 /*------FORM------*/
 
