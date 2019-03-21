@@ -25,6 +25,10 @@
         top: 30px;
         left: 30px;
     }
+
+.town-article {
+    padding:25px;
+}
     .farmersmarket {
         float: right;
         padding: 20px;

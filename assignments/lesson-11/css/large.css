@@ -60,9 +60,11 @@ table, th, td {
     width: 75px;
     height: 75px;
   }
+  .town-article {
+      padding: 50px;
+  }
 .farmersmarket {
-    padding: 20px;
-    width: 260px;
+    width: 250px;
     height: auto;
 }
 .wrapper {

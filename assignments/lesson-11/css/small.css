@@ -136,16 +136,15 @@ h3 {
 .forecast {
     display: none;
     color: #083D77;
+}
+.town-article {
+    margin: 50px;
+    background: gray;
 
 }
-.events {
-    position: relative; 
-}
-
 .farmersmarket{
     width: 200px;
     height: auto;
-    margin: 1rem 2%;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -167,6 +166,7 @@ pre {
 }
 div.events {
     color: #083D77;
+    position: relative; 
 }
 .contactmap {
     clear: both;
@@ -245,8 +245,6 @@ small a {
 figcaption {
     text-align: center;
 }
-
-/*------FORM------*/
 
 .userinfo, .storm, .comments, .button, .stormtype{
     display: flex;
@@ -333,8 +331,6 @@ textarea {
 
 }
 
-/*------Homepage------*/
-
 .hometownpic {
 width: 100%;
 height: 250px;
@@ -386,6 +382,4 @@ article p {
     height: 350px;
     padding: 20px;
 }
-
-
 
