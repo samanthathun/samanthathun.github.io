@@ -196,6 +196,8 @@ div.events {
 small a {
     color: #FFC857;
 }
+
+
 .gridfishhaven {
     display: grid;
     grid-template-columns: 1fr;
@@ -204,7 +206,6 @@ small a {
 .fishhavenforecast {
     display: none;
     color: #083D77;
-   
 }
 .fishhavenarticle {
     display: grid;
@@ -216,10 +217,14 @@ small a {
 .campingimg {
     width: 200px;
     height: auto;
+    padding: 20px 0;
 }
 .campingarticle {
+    
 
 }
+
+
 
 .wrapper {
     display: grid;
