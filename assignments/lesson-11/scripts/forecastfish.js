@@ -43,7 +43,7 @@ forecastRequest.onload = function () {
 
     for (let i = 1; i <= 5; i++) {
 
-        document.getElementById('current-temp' + i).innerHTML = hightempforecast[i - 1];
+        document.getElementById('current-temp' + i).innerHTML = hightempforecast[i - 1].toFixed(1);
         let icon = "http://openweathermap.org/img/w/" + images[i - 1] + ".png";
 
         document.getElementById("cc-img" + i).setAttribute('src', icon);

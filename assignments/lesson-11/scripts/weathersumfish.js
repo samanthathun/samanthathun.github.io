@@ -8,9 +8,9 @@ weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
 //console.log(weatherData);
 document.getElementById("currently").innerHTML=weatherData.weather[0].description;
-document.getElementById("temp").innerHTML=weatherData.main.temp_max;
-document.getElementById("humidity").innerHTML=weatherData.main.humidity;
-document.getElementById("wind").innerHTML=weatherData.wind.speed;
+document.getElementById("temp").innerHTML=weatherData.main.temp_max.toFixed(1);
+document.getElementById("humidity").innerHTML=weatherData.main.humidity.toFixed(1);
+document.getElementById("wind").innerHTML=weatherData.wind.speed.toFixed(1);
 
 let wind = parseInt(weatherData.wind.speed, 10);
 let temp = parseInt(weatherData.main.temp_max, 10);
