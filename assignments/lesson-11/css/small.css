@@ -219,9 +219,14 @@ small a {
     height: auto;
     padding: 20px 0;
 }
+.eventsfishhaven{
+    text-align: center;
 
 
 
+    
+    
+}
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
