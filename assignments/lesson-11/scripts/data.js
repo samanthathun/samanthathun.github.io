@@ -13,7 +13,7 @@ request.onload = function () {
 
     let number = 0;
     let town = towndata['towns'];
-  // console.log(town);
+  
     for (let i = 0; i < town.length; i++) {
 
         if (town[i].name == "Preston" || town[i].name == "Soda Springs" || town[i].name == "Fish Haven") {
