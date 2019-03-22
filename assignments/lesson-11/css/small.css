@@ -183,9 +183,6 @@ pre {
 .contactsection, .mapouter {
     display: inline-block;
     color: #083D77;
-
-}
-.mapouter {
     padding: 20px 0;
 }
 .map {
@@ -324,7 +321,14 @@ textarea {
     margin: 0 0 50px;
 
 }
+.threetowns p {
+    color: #083D77;
 
+}
+.threetowns img {
+    width: 250px;
+    height: 175px;
+}
 .townbox {
     border: 1px solid #083D77;
     padding: 10px;
@@ -337,16 +341,6 @@ h4 {
     color: #083D77;
     width: 250px;
 }
-
-.threetowns p {
-    color: #083D77;
-
-}
-.threetowns img {
-    width: 250px;
-    height: 175px;
-}
-
 article p {
     color: #083D77;
 }
