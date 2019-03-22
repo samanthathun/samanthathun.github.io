@@ -69,8 +69,11 @@ table, th, td {
     height: auto;
 }
 .events {
-    margin: auto;
+    margin: 25px auto;
     width: 40%;
+}
+.contactmap {
+    padding: 0;
 }
 .map {
     width: 250px;

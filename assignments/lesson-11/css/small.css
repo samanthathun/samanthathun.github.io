@@ -179,9 +179,10 @@ pre {
 }
 .contactmap {
     clear: both;
-    margin: 10px;
+    padding: 25px;
+    margin: 10px auto;
     text-align: center;
-    border: 1px solid #FFC857;
+    max-width: 960px;
   
    
 
