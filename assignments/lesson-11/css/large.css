@@ -42,7 +42,6 @@
     display: inline-block;
     margin: 0 auto;
     width: 100%;
-   
 
 }
 table {
@@ -69,6 +68,10 @@ table, th, td {
     width: 250px;
     height: auto;
 }
+.events {
+    margin: auto;
+    width: 40%;
+}
 .map {
     width: 250px;
 }
@@ -88,9 +91,6 @@ table, th, td {
 .threetowns {
     flex-direction: row;
     
-}
-.autumn {
-    float: left;
 }
 
 

@@ -172,6 +172,11 @@ pre {
     padding: 25px;
     background: radial-gradient(#ffffff, #F2F2F2, #ffffff, #FFC857)
 }
+.eventarticle {
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
 .contactmap {
     clear: both;
     margin: 10px;
@@ -213,10 +218,6 @@ small a {
     width: 200px;
     height: auto;
     padding: 20px 0;
-}
-.eventsfishhaven{
-    text-align: center;
-    
 }
 .wrapper {
     display: grid;
@@ -360,12 +361,4 @@ article p {
     color: #083D77;
 }
 
-.autumn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 300px;
-    padding: 20px;
-}
 
