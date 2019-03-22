@@ -73,16 +73,6 @@ table, th, td {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-
-.fishhavenforecast {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 25px
-}
-
-
-
 .gallery {
     box-shadow: 0 0 30px #333;
     padding: 10px;
@@ -91,8 +81,6 @@ table, th, td {
 .galleryimg:hover {
     box-shadow: 0 0 30px #333;
 }
-
-/*------Home------*/
 
 .threetowns {
     flex-direction: row;

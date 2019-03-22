@@ -26,8 +26,8 @@
         left: 30px;
     }
 
-.town-article {
-    padding:25px;
+    .town-article {
+        padding:25px;
 }
     .farmersmarket {
         float: right;
@@ -39,14 +39,6 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 25px;
     }
-/*-----Fish Haven------*/
-
-.fishhavenarticle {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-}
-
-/*------FORM------*/
 
     form fieldset {
         margin: auto;
@@ -63,13 +55,6 @@
         width: 50%;
         padding: 50px 25px 75px;
     }
-/*------HOME------*/
-        
-   /* .threetowns {
-            flex-wrap: wrap;
-        }
-
-    */
 
     .hometownpic {
         width: 100%;

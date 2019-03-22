@@ -141,8 +141,6 @@ h3 {
     margin: 50px;
     background: radial-gradient(#ffffff, #F2F2F2, #ffffff, #FFC857)
 
-
-
 }
 .farmersmarket{
     width: 200px;
@@ -203,23 +201,6 @@ small a {
     color: #FFC857;
 }
 
-
-.gridfishhaven {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 50px;
-}
-.fishhavenforecast {
-    display: none;
-    color: #083D77;
-}
-.fishhavenarticle {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 50px;
-    align-items: center;
-    justify-items: center;
-}
 .campingimg {
     width: 200px;
     height: auto;
@@ -227,10 +208,6 @@ small a {
 }
 .eventsfishhaven{
     text-align: center;
-
-
-
-
     
 }
 .wrapper {
