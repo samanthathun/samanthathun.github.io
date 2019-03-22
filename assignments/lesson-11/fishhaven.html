@@ -148,11 +148,15 @@
             <img class="smallicon" src="images/instagram.png" alt="instagram link">
             <img class="smallicon" src="images/youtube.png" alt="youtube link">
         </div>
+
         <div class="mapouter">
-            <iframe width="325" height="225" id="gmap_canvas"
-                src="https://maps.google.com/maps?q=preston%20id&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <picture>
+                <source srcset="images/fishhavenmapoptimized800.jpg" media="(minwidth: 800px)">
+                <source srcset="images/fishhavenmapoptimized900.jpg" media="(min-width: 500px) and (max-width:799px)">
+                <img class = "map" src="images/fishhavenmapoptimized500.jpg" alt="map of Fish Haven Idaho">
+            </picture>
         </div>
+
     </div>
     <footer>
         <div class="footerbar"> &copy; 2019 Rain Sun Snow | <a href="https://openweathermap.org/">openweathermap</a> |

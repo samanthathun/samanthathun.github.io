@@ -181,6 +181,10 @@ div.events {
 .mapouter {
     padding: 20px 0;
 }
+.map {
+    width: 200px;
+    height: auto;
+}
 
 .smallicon {
     width: 25px;
