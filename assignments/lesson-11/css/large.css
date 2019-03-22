@@ -43,6 +43,7 @@
     margin: 0 auto;
     width: 100%;
     padding: 10px;
+    margin: 25px;
 
 }
 table {
@@ -62,6 +63,7 @@ table, th, td {
   }
   .town-article {
       padding: 50px;
+
   }
 .farmersmarket {
     width: 250px;

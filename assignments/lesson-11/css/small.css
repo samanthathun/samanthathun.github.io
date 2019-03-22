@@ -139,7 +139,9 @@ h3 {
 }
 .town-article {
     margin: 50px;
-    background: gray;
+    background: radial-gradient(#ffffff, #F2F2F2, #ffffff, #FFC857)
+
+
 
 }
 .farmersmarket{
