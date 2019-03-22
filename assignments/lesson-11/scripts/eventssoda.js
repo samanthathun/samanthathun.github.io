@@ -1,6 +1,5 @@
 let eventoutput = document.querySelector('section.eventssodasprings');
 
-
 let ssrequestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 let ssrequest = new XMLHttpRequest();
 ssrequest.open('GET', ssrequestURL);
@@ -20,7 +19,7 @@ ssrequest.onload = function () {
             listss.setAttribute('class', 'eventarticle');
 
             let list1 = ss[i].events;
-            
+
             for (let j = 0; j < list1.length; j++) {
 
                 let listitem = document.createElement('li');
@@ -30,7 +29,7 @@ ssrequest.onload = function () {
                 document.getElementById('events').appendChild(listss);
             }
 
-            
+
         }
     }
 

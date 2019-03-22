@@ -7,9 +7,6 @@ forecastRequest.onload = function () {
 
     let forecastData = JSON.parse(forecastRequest.responseText);
 
-
-    //console.log(forecastData);
-
     var day = new Date();
     var weekday = new Array(7);
     weekday[0] = "Sunday";
@@ -25,9 +22,6 @@ forecastRequest.onload = function () {
         document.getElementById("forecastday" + i).innerHTML = n;
 
     }
-
-
-
     let hightempforecast = [];
     let counter = 0;
     let images = [];

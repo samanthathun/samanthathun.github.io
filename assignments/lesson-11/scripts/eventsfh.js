@@ -1,6 +1,5 @@
 let eventoutput = document.querySelector('section.eventsfishhaven');
 
-
 let fhrequestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 let fhrequest = new XMLHttpRequest();
 fhrequest.open('GET', fhrequestURL);
@@ -20,7 +19,7 @@ fhrequest.onload = function () {
             listfh.setAttribute('class', 'eventarticle');
 
             let list1 = fh[i].events;
-            
+
             for (let j = 0; j < list1.length; j++) {
 
                 let listitem = document.createElement('li');
@@ -30,7 +29,7 @@ fhrequest.onload = function () {
                 document.getElementById('events').appendChild(listfh);
             }
 
-            
+
         }
     }
 

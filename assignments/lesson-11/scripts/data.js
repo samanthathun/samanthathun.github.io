@@ -1,6 +1,5 @@
 let output = document.querySelector('div.threetowns');
 
-
 let requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -10,10 +9,9 @@ request.send();
 request.onload = function () {
     let towndata = request.response;
 
-
     let number = 0;
     let town = towndata['towns'];
-  
+
     for (let i = 0; i < town.length; i++) {
 
         if (town[i].name == "Preston" || town[i].name == "Soda Springs" || town[i].name == "Fish Haven") {

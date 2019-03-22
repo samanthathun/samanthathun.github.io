@@ -9,6 +9,6 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
 var n = weekday[day.getDay()];
-var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 document.getElementById("demo").innerHTML = n + " " + months[day.getMonth()] + " " + day.getDate() + ", " + day.getFullYear();
