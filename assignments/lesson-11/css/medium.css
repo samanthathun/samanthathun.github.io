@@ -3,12 +3,9 @@
        h1 {
         font-size: 3rem;
     }
-    .motto {
-        font-size: 1em;
-    }
+    
     .sunlogo {
         width: 150px;
-        margin: 10px 50px;
     }
     .navigation {
         flex-direction: row;
@@ -31,10 +28,10 @@
 }
     .farmersmarket {
         float: right;
-        padding: 20px;
-
     }
-   
+    .contactsection, .mapouter {
+    padding: 0 50px;
+    }
     .wrapper {
         grid-template-columns: 1fr 1fr;
         grid-gap: 25px;

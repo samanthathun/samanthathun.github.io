@@ -15,24 +15,9 @@
 .menu {
     display: none;
 }
-.navigation {
-    flex-direction: row;
-}
-.navigation li:first-child {
-    display: none
-}
-.navigation li {
-    display: block;
-    flex: 1 1 auto;
-
-}
 .weatherdetails {
     line-height: 30px;
     padding: 0;
-
-}
-.weatherdetails h3 {
-    margin: 5px;
 }
 .contactsection, .mapouter {
     padding: 50px;
@@ -62,15 +47,12 @@ table, th, td {
   .town-article {
       padding: 50px;
       margin: 50px;
-
   }
 .events {
     margin: 25px auto;
     width: 40%;
 }
-.contactmap {
-    padding: 0;
-}
+
 .map {
     width: 250px;
 }
