@@ -64,9 +64,9 @@ table, th, td {
 .galleryimg:hover {
     box-shadow: 0 0 30px #333;
 }
-
 .threetowns {
     flex-direction: row;
+    align-items: stretch;
     
 }
 
