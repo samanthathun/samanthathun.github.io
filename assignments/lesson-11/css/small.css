@@ -181,6 +181,9 @@ pre {
     clear: both;
     margin: 10px;
     text-align: center;
+    border: 1px solid #FFC857;
+  
+   
 
 }
 .contactsection, .mapouter {
@@ -203,21 +206,14 @@ pre {
     width: 15px;
     height: 15px;
 }
-.footerbar {
+.footerbar, a {
     text-align: center;
     padding: 10px;
-}
-.footerbar, a {
     color: #ffffff;
 }
+
 small a {
     color: #FFC857;
-}
-
-.campingimg {
-    width: 200px;
-    height: auto;
-    padding: 20px 0;
 }
 .wrapper {
     display: grid;
