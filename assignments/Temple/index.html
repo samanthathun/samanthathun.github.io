@@ -20,31 +20,29 @@
 <body>
 
     <header class="headinfo">
-        <img>
-
-        <div class="headings">
-            <h1></h1>
-        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu" href="#" title="Menu" onclick="toggleMenu()">&equiv; Menu</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#">Temples</a></li>
+                <li><a href="#">Reservations</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <img class="logo" src="images/templelogo.png" alt="Temple Inn and Suites logo">
     </header>
-    <img class="logo" src="images/templelogo.png" alt="Temple Inn and Suites logo">
-    <nav>
-        <ul class="navigation">
-            <li><a class="menu" href="#" title="Menu" onclick="toggleMenu()">&equiv; Menu</a></li>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="#">Temples</a></li>
-            <li><a href="#">Reservations</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
-
-    <img class="sdtemplebanner" src="images/sandiegotemplebanneroptimized1000.jpg"
-        alt="San Diego Temple with blue sky and palm trees">
+    <picture>
+        <source srcset="images/sandiegotemplebanneroptimized800.jpg" media="(min-width: 800px)">
+        <source srcset="images/sandiegotemplebanneroptimized1000.jpg" media="(min-width: 500px) and (max-width:799px)">
+        <img class="sdtemplebanner" src="images/sandiegotemplebanneroptimized500.jpg"
+            alt="San Diego Temple with blue sky and palm trees">
+    </picture>
 
     <main>
         <div class="homegrid">
 
-            <article>
+            <article class="sdhomearticle">
                 <p>The San Diego California Temple is the 47th constructed and 45th operating temple of The Church of
                     Jesus Christ of Latter-day Saints (LDS Church).[1] Located near the La Jolla community of San Diego,
                     it was built with two main spires, but unique to this temple are four smaller spires at the base of
@@ -57,42 +55,48 @@
 
                     Although there is no visitors' center, the church maintains the Mormon Battalion Historic Site in
                     Old Town, San Diego. (wikipedia)
+
                 </p>
             </article>
 
-            <picture>
+
+            <picture class="sdimg1">
                 <source srcset="images/sandiegotemplesideoptimized500.jpg" media="(min-width: 800px)">
                 <source srcset="images/sandiegotemplesideoptimized800.jpg"
                     media="(min-width: 500px) and (max-width:799px)">
-                <img class="sdtemplehome" src="sandiegotemplesideoptimized300.jpg" alt="Side view of San Diego Temple">
+                <img class="sdtemplehome" src="images/sandiegotemplesideoptimized300.jpg"
+                    alt="Side view of San Diego Temple">
             </picture>
 
-            <picture>
+            <div class="reservations">
+                <h3>Make a Reservation</h3>
+                <img class="calendar" src="images/aprilcalendaroptimized500.jpg" alt="April Reservations Calendar">
+            </div>
+
+            <picture class="sdimg2">
                 <source srcset="images/sandiegotemplehome1optimized800.jpg" media="(min-width: 800px)">
                 <source srcset="images/sandiegotemplehome1optimized900.jpg"
                     media="(min-width: 500px) and (max-width:799px)">
                 <img class="sdtemplehome" src="images/sandiegotemplehome1optimized500.jpg"
                     alt="San Diego Temple with flowers">
             </picture>
-            <h3>Make a Reservation</h3>
-            <img class="calendar" src="images/aprilcalendaroptimized500.jpg" alt="April Reservations Calendar">
+
+
+            <div class="contactsection">
+                <strong> Temple Inn & Suites</strong>
+                <br> &nbsp;2468 Temple
+                View Ln.
+                <br>Bethesda, MD 20810
+                <br>&phone; &nbsp; 1-800-328-1986
+                <br>&#9993; &nbsp; templeinn@gmail.com
+                <br>
+                Follow Us:
+                <img class="smallicon" src="images/facebook.png" alt="facebook link">
+                <img class="smallicon" src="images/instagram.png" alt="instagram link">
+            </div>
         </div>
     </main>
 
-    <div class="contactsection">
-        <strong> Temple Inn & Suites</strong>
-        <br> &nbsp;2468 Temple
-        View Ln.
-        <br>Bethesda, MD 20810
-        <br>&phone; &nbsp; 1-800-328-1986
-        <br>&#9993; &nbsp; templeinn@gmail.com
-        <br>
-        Follow Us:
-        <img class="smallicon" src="images/facebook.png" alt="facebook link">
-        <img class="smallicon" src="images/instagram.png" alt="instagram link">
-    </div>
-
-    </div>
     <footer>
         <div class="footerbar"> &copy; 2019 Temple Inn & Suites | Samantha Thun<br>
             <span id="demo"></span>
