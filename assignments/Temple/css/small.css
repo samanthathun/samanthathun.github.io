@@ -1,0 +1,28 @@
+body {
+    background-color: #F2F2F2;
+	font-size: 16px;
+	font-family: 'Dosis', Charcoal, sans-serif;
+}
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header, footer {
+	margin: 10px auto;
+	background-color:#083D77;;
+	border: 1px solid #FFC857;
+    font-family: 'Dosis', Charcoal, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+.homegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
