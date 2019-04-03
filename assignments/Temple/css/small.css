@@ -95,6 +95,10 @@ a.active {
 p {
     margin: 0;
 }
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
 h3 {
     font-size: 2rem;
 }
@@ -129,4 +133,67 @@ h4 {
 }
 .contactsection {
     padding: 10px;
+}
+
+form fieldset{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+font-size: .90rem;
+color: #131414;
+margin: 10px;
+border: 1px dashed #131414;
+max-width: 600px;
+
+}
+form legend {
+    color: #131414;
+    margin: 0 2rem;
+    padding: 1rem 1rem;
+
+}
+
+input, select {
+    padding: .75rem;
+    margin: .25rem .75rem 1.5rem;
+    border: 1px solid #131414;
+
+}
+
+.comments {
+    margin: 2rem;
+    max-width: 600px;
+
+}
+textarea {
+    padding: .75rem;
+    margin: 10px 0;
+    border: 1px solid #131414;
+
+}
+.button {
+    background-color: #FFEAEA;
+    color: #131414;
+    border: 1px solid #131414;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+
+.thanks {
+    margin: auto;
+    text-align: center;
+    color: #131414;
+    height: 200px;
+    width: 75%;
+   
+}
+.thanks p {
+    font-size: 1.25rem;
+
 }
