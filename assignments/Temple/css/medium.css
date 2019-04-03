@@ -38,10 +38,6 @@
     grid-area: 3 / 1 / auto / span 3;
 }
 
-form fieldset {
-    margin: auto;
-   
-}
 .comments {
     margin: 2rem auto 0;
 }
