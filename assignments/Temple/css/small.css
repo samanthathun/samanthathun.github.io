@@ -135,7 +135,7 @@ h4 {
     padding: 10px;
 }
 
-form fieldset{
+form fieldset, .comments{
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -164,6 +164,7 @@ input, select {
 .comments {
     margin: 2rem;
     max-width: 600px;
+    border: none;
 
 }
 textarea {
@@ -172,7 +173,7 @@ textarea {
     border: 1px solid #131414;
 
 }
-.button {
+.reservationsbutton {
     background-color: #FFEAEA;
     color: #131414;
     border: 1px solid #131414;
