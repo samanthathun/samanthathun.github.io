@@ -41,13 +41,13 @@
 
     <main>
 
-        <h2>Make Your Reservations</h2>
+        <h2>Make Your Reservation</h2>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Guest Information</legend>
 
                 <div class="location">
-                    <label class="guestinfo">Hotel Location
+                    <label class="guestinfo">Hotel Location:
                         <select name="location" required>
                             <option value="">Select Location</option>
                             <option value="San Diego, CA">San Diego, CA</option>
@@ -62,7 +62,7 @@
                 <label class="guestinfo">Check Out Date:<input type="date" name="checkoutdate" required></label>
 
                 <div class="rooms">
-                    <label class="guestinfo">Number of Rooms
+                    <label class="guestinfo">Number of Rooms:
                         <select name="rooms" required>
                             <option value="">Select Number of Rooms</option>
                             <option value="1">1</option>
@@ -74,7 +74,7 @@
                 </div>
 
                 <div class="typeroom">
-                    <label class="guestinfo">Type of Rooms
+                    <label class="guestinfo">Type of Rooms:
                         <select name="typeroom" required>
                             <option value="">Select Type of Rooms</option>
                             <option value="single room 1">Single room, 2 Queen Beds</option>
@@ -86,16 +86,16 @@
                     </label>
                 </div>
 
-                <label class="guestinfo">Full Name*<input type="text" size="30" name="fullname" required
+                <label class="guestinfo">Full Name:<input type="text" size="30" name="fullname" required
                         pattern="([A-Za-z])+( [A-Za-z]+)" {5} title="Full Name at Least 5 Letters"></label>
 
-                <label class="guestinfo">Email*<input type="email" size="30" name="email" required
+                <label class="guestinfo">Email:<input type="email" size="30" name="email" required
                         placeholder="youremail@gmail.com"></label>
 
-                <label class="guestinfo">Phone Number<input type="tel" size="30" name="phone" required></label>
+                <label class="guestinfo">Phone Number:<input type="tel" size="30" name="phone" required></label>
 
                 <div class="state">
-                    <label class="guestinfo">Home State or Country
+                    <label class="guestinfo">Home State or Country:
                         <select>
                             <option value="">Select State</option>
                             <option value="AL">Alabama</option>
@@ -407,7 +407,7 @@
 
             </fieldset>
 
-            <label class="comments">Special Accomodations or Comments<br>
+            <label class="comments">Special Accomodations or Comments:<br>
                 <textarea rows="5" cols="33"></textarea></label>
 
             <div class="button"><input class="reservationsbutton" type="submit" name="submitbutton"
