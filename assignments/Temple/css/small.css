@@ -235,16 +235,23 @@ textarea {
     padding: 25px;
 
 }
+.ammenitiesgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 25px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
 .servicesimggrid {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
     padding: 25px;
-
-
     justify-items: center;
     align-items: center;
-    text-align: left;
 
 }
 
