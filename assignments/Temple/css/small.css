@@ -234,5 +234,21 @@ textarea {
     text-align: left;
     padding: 25px;
 
+}
+.servicesimggrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 25px;
 
+
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+
+}
+
+.servicesimgs {
+width: 200px;
+height: 132px;
 }
