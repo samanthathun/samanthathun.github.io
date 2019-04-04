@@ -23,7 +23,7 @@
         <nav>
             <ul class="navigation">
                 <li><a class="menu" href="#" title="Menu" onclick="toggleMenu()">&equiv; Menu</a></li>
-                <li><a  href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Temples</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
                 <li><a href="#">Services</a></li>
@@ -41,82 +41,53 @@
 
     <main>
 
+        <div class="contactusform">
             <form method="get" action="thanks1.html">
-            <fieldset>
-                    <legend>Guest Information</legend>
-    
-                    <div class="location">
-                        <label class="guestinfo">Hotel Location:
-                            <select name="location" required>
-                                <option value="">Select Location</option>
-                                <option value="San Diego, CA">San Diego, CA</option>
-                                <option value="Los Angeles, CA">Los Angeles, CA</option>
-                                <option value="Newport Beach, CA">Newport Beach, CA</option>
-                                <option value="Redlands, CA">Redlands, CA</option>
-                            </select>
-                        </label>
-                    </div>
-    
-                    <label class="guestinfo">Check In Date:<input type="date" name="checkindate" required></label>
-                    <label class="guestinfo">Check Out Date:<input type="date" name="checkoutdate" required></label>
-    
-                    <div class="rooms">
-                        <label class="guestinfo">Number of Rooms:
-                            <select name="rooms" required>
-                                <option value="">Select Number of Rooms</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4+</option>
-                            </select>
-                        </label>
-                    </div>
-    
-                    <div class="typeroom">
-                        <label class="guestinfo">Type of Rooms:
-                            <select name="typeroom" required>
-                                <option value="">Select Type of Rooms</option>
-                                <option value="single room 1">Single room, 2 Queen Beds</option>
-                                <option value="single room 2">Single room, King Bed</option>
-                                <option value="Double room 1">Double room, 2 King Beds</option>
-                                <option value="Double room 2">Double Room, 1 King Bed & 2 Queen Beds</option>
-                                <option value="studio suite">Studio Suite, 1 King Bed</option>
-                            </select>
-                        </label>
-                    </div>
-    
-                    <label class="guestinfo">Full Name:<input type="text" size="30" name="fullname" required
+                <fieldset>
+                    <legend>Let's Connect</legend>
+
+                    <label class="contactus">Full Name:<input type="text" size="30" name="fullname" required
                             pattern="([A-Za-z])+( [A-Za-z]+)" {5} title="Full Name at Least 5 Letters"></label>
-    
-                    <label class="guestinfo">Email:<input type="email" size="30" name="email" required
+
+                    <label class="contactus">Email:<input type="email" size="30" name="email" required
                             placeholder="youremail@gmail.com"></label>
-    
-                    <label class="guestinfo">Phone Number:<input type="tel" size="30" name="phone" required></label>
-    
+
+                    <label class="contactus">Phone Number:<input type="tel" size="30" name="phone" required></label>
+
+                    <label class="comments">Message:<br>
+                        <textarea rows="5" cols="33"></textarea></label>
+
+                    <div class="button"><input class="reservationsbutton" type="submit" name="submitbutton"
+                            value="Send Info">
                     </div>
-    
+
                 </fieldset>
+            </form>
 
+            <div class="map">
 
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.746847829176!2d-77.09712564672546!3d38.98239675747933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1554352976532!5m2!1sen!2sus"
+                    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+                <div class="contactsection">
+                    <strong> Temple Inn & Suites</strong>
+                    <br> &nbsp;4800 Montgomery Ln #300
+                    <br>Bethesda, MD 20814
+                    <br>&phone; &nbsp; 1-800-328-1986
+                    <br>&#9993; &nbsp; templeinn@gmail.com
+                    <br>
+                    Follow Us:
+                    <img class="smallicon" src="images/facebook.png" alt="facebook link">
+                    <img class="smallicon" src="images/instagram.png" alt="instagram link">
+                </div>
 
-
-
-
-
-
-        <div class="contactsection">
-            <strong> Temple Inn & Suites</strong>
-            <br> &nbsp;4800 Montgomery Ln #300
-            <br>Bethesda, MD 20814
-            <br>&phone; &nbsp; 1-800-328-1986
-            <br>&#9993; &nbsp; templeinn@gmail.com
-            <br>
-            Follow Us:
-            <img class="smallicon" src="images/facebook.png" alt="facebook link">
-            <img class="smallicon" src="images/instagram.png" alt="instagram link">
+            </div>
 
         </div>
+
+
+
     </main>
 
     <footer>

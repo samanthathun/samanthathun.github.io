@@ -50,8 +50,10 @@
     width: 50%;
     padding: 25px;
 }
-
-
+.contactusform {
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+}
 
 
 

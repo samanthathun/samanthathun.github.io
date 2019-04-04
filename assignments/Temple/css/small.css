@@ -153,7 +153,21 @@ margin: auto;
 border: 1px dashed #131414;
 max-width: 650px;
 
+
 }
+.contactusform {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+iframe {
+    width: 300px;
+    padding: 25px;
+}
+
 form legend {
     color: #131414;
     margin: 0 2rem;
