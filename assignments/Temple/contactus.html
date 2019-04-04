@@ -41,6 +41,68 @@
 
     <main>
 
+            <form method="get" action="thanks1.html">
+            <fieldset>
+                    <legend>Guest Information</legend>
+    
+                    <div class="location">
+                        <label class="guestinfo">Hotel Location:
+                            <select name="location" required>
+                                <option value="">Select Location</option>
+                                <option value="San Diego, CA">San Diego, CA</option>
+                                <option value="Los Angeles, CA">Los Angeles, CA</option>
+                                <option value="Newport Beach, CA">Newport Beach, CA</option>
+                                <option value="Redlands, CA">Redlands, CA</option>
+                            </select>
+                        </label>
+                    </div>
+    
+                    <label class="guestinfo">Check In Date:<input type="date" name="checkindate" required></label>
+                    <label class="guestinfo">Check Out Date:<input type="date" name="checkoutdate" required></label>
+    
+                    <div class="rooms">
+                        <label class="guestinfo">Number of Rooms:
+                            <select name="rooms" required>
+                                <option value="">Select Number of Rooms</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4+</option>
+                            </select>
+                        </label>
+                    </div>
+    
+                    <div class="typeroom">
+                        <label class="guestinfo">Type of Rooms:
+                            <select name="typeroom" required>
+                                <option value="">Select Type of Rooms</option>
+                                <option value="single room 1">Single room, 2 Queen Beds</option>
+                                <option value="single room 2">Single room, King Bed</option>
+                                <option value="Double room 1">Double room, 2 King Beds</option>
+                                <option value="Double room 2">Double Room, 1 King Bed & 2 Queen Beds</option>
+                                <option value="studio suite">Studio Suite, 1 King Bed</option>
+                            </select>
+                        </label>
+                    </div>
+    
+                    <label class="guestinfo">Full Name:<input type="text" size="30" name="fullname" required
+                            pattern="([A-Za-z])+( [A-Za-z]+)" {5} title="Full Name at Least 5 Letters"></label>
+    
+                    <label class="guestinfo">Email:<input type="email" size="30" name="email" required
+                            placeholder="youremail@gmail.com"></label>
+    
+                    <label class="guestinfo">Phone Number:<input type="tel" size="30" name="phone" required></label>
+    
+                    </div>
+    
+                </fieldset>
+
+
+
+
+
+
+
 
 
         <div class="contactsection">
