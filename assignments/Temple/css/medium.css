@@ -56,6 +56,10 @@
     text-align: center;
 }
 
+.ammenitiesgrid {
+    grid-template-columns: 1fr 1fr;
+}
+
 .servicesgrid {
     grid-template-columns: 1fr 1fr;
 }
