@@ -53,6 +53,7 @@
 .contactusform {
     grid-template-columns: 1fr 1fr;
     padding: 25px;
+    text-align: center;
 }
 
 

@@ -161,7 +161,7 @@ max-width: 650px;
     grid-gap: 10px;
     justify-items: center;
     align-items: center;
-    text-align: center;
+    text-align: right;
 }
 iframe {
     width: 300px;
@@ -186,6 +186,7 @@ input, select {
     margin: 2rem;
     max-width: 600px;
     border: none;
+    text-align: left;
 
 }
 textarea {
