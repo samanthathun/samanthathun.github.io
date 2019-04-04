@@ -95,14 +95,15 @@ a.active {
 p {
     margin: 0;
 }
-h2 {
+
+h1 {
     font-size: 2.5rem;
     text-align: center;
 }
-h3 {
+h2 {
     font-size: 2rem;
 }
-h4 {
+h3 {
     margin: auto;
     background-color: #FFEAEA;
     border: solid 1px #131414;
@@ -110,7 +111,7 @@ h4 {
     padding: .75rem;
     width: 150px;
 }
-h4 a {
+h3 a {
 text-decoration: none;
 color: #131414;
 
@@ -221,5 +222,17 @@ textarea {
     font-size: 1.25rem;
     text-align: center;
         
+}
+
+
+.servicesgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+    padding: 25px;
+
 
 }
