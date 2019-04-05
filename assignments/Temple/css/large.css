@@ -36,6 +36,15 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 
 
+.ammenitiesgrid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.servicesimggrid {
+    grid-template-columns: 1fr 1fr;
+}
+
+
 
 
 
