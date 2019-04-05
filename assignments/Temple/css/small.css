@@ -154,8 +154,13 @@ border: 1px dashed #131414;
 max-width: 650px;
 
 
+}
+
+.contactus {
+    text-align: center;
 
 }
+
 .contactusform {
     display: grid;
     grid-template-columns: 1fr;
