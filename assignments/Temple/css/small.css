@@ -279,3 +279,19 @@ height: 132px;
     width: 300px;
     height: auto;
 }
+
+.ftmissionarygrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 25px;
+    justify-items: center;
+    align-items: center;
+}
+.ftmissionaryimgs {
+    width: 400px;
+    height: auto;
+}
+
+
+
