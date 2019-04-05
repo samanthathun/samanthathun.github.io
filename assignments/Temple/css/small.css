@@ -284,6 +284,13 @@ height: 132px;
     width: 300px;
     height: auto;
 }
+.receptionlist {
+    padding: 25px;
+    margin: auto;
+    width: 75%;
+    text-align: left;
+}
+
 
 .ftmissionarygrid {
     display: grid;
