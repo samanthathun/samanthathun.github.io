@@ -49,7 +49,6 @@ nav {
     display: block;
     color: #131414;
     font-size: 1.5rem;
-    font-family: 'Dosis', Charcoal, sans-serif;
     padding: 15px;
     text-decoration: none;
     text-align: center;
@@ -260,5 +259,19 @@ width: 200px;
 height: 132px;
 }
 .servicessubpage {
-    
+    padding: 25px;
+    margin: auto;
+    width: 75%;
+    text-align: center;
 }
+.subpagelist {
+    list-style-type: none;
+}
+.subpagelist a {
+    color: #131414;
+    font-size: 1.5rem;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
