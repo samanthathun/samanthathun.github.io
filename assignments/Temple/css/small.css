@@ -275,4 +275,7 @@ height: 132px;
     font-size: 25px;
 }
 
-
+.receptionimgs {
+    width: 300px;
+    height: auto;
+}
