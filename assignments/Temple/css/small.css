@@ -122,6 +122,24 @@ color: #131414;
     height: auto;
 }
 
+.weatherdetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .25rem;
+
+}
+.weatherdetails .label {
+    font-size: 1.25rem;
+    color: #083D77;
+    text-align: right;
+    padding: 0 0 0 15px;
+
+}
+.weatherdetails .value {
+    color: #FFC857;
+    padding: 0 15px 0 30px;
+}
+
 .reservations {
     grid-column: 1;
     grid-row: 1;
