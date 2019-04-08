@@ -101,6 +101,7 @@ h1 {
 }
 h2 {
     font-size: 2rem;
+    text-align: center;
 }
 h3 {
     margin: auto;
@@ -115,6 +116,12 @@ text-decoration: none;
 color: #131414;
 
 }
+
+.templesimg {
+    width: 300px;
+    height: auto;
+}
+
 .reservations {
     grid-column: 1;
     grid-row: 1;
