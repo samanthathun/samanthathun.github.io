@@ -266,8 +266,9 @@ height: 132px;
 .servicessubpage {
     padding: 25px;
     margin: auto;
-    width: 75%;
+    width: 90%;
     text-align: center;
+
 }
 .subpagelist {
     list-style-type: none;
@@ -314,7 +315,7 @@ height: 132px;
     align-items: center;
 }
 .ftmissionaryimgs {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 .missionarysuites {
