@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temple Inn and Suites | Homepage | Hotel Information</title>
+    <meta name="description"
+        content="Temple Inn and Suites hotel chain providing lodging and services for temple patrons and their guests">
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Sacramento" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+
+    <header class="headinfo">
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu" href="#" title="Menu" onclick="toggleMenu()">&equiv; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="temples.html">Temples</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <img class="logo" src="images/templelogo.png" alt="Temple Inn and Suites logo">
+    </header>
+    <picture>
+        <source srcset="images/sdtemplebanner.jpg" media="(min-width: 800px)">
+        <source srcset="images/sdtemplebanner800.jpg" media="(min-width: 500px) and (max-width:799px)">
+        <img class="sdtemplebanner" src="images/sdtemplebanner500.jpg"
+            alt="San Diego Temple with blue sky and palm trees">
+    </picture>
+
+    <main>
+        <h1>Southern California Temples</h1>
+        
+        <div class="fourtowns"></div>
+
+        <div class="contactsection">
+            <strong> Temple Inn & Suites</strong>
+            <br> &nbsp;4800 Montgomery Ln #300
+            <br>Bethesda, MD 20814
+            <br>&phone; &nbsp; 1-800-328-1986
+            <br>&#9993; &nbsp; templeinn@gmail.com
+            <br>
+            Follow Us:
+            <img class="smallicon" src="images/facebook.png" alt="facebook link">
+            <img class="smallicon" src="images/instagram.png" alt="instagram link">
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footerbar"> &copy; 2019 Temple Inn & Suites | Samantha Thun<br>
+            <span id="demo"></span>
+        </div>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/weathersumredlands.js"></script>
+    <script src="scripts/redlandsinfo.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+</body>
+
+</html>

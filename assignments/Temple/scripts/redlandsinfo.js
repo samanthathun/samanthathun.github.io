@@ -1,4 +1,4 @@
-let output = document.querySelector('div.threetowns');
+let output = document.querySelector('div.fourtowns');
 
 
 let requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
