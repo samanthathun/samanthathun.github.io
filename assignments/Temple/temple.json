@@ -33,7 +33,7 @@
                 "8:00 PM Appointments Only"
             ],
             "sealing": "7:00 AM - 9:00 PM Walk-ins and Appointments",
-            "temple closure schedule": [
+            "templeclosureschedule": [
                 "Tuesday, 2 April 2019 - Monday, 15 April 2019",
                 "Thursday, 4 July 2019",
                 "Saturday, 5 October 2019",
@@ -86,7 +86,7 @@
                 "3:00 PM - 3:01 PM Walk-ins and Appointments",
                 "5:00 PM - 6:01 PM Walk-ins and Appointments"
             ],
-            "temple closure schedule": [
+            "templeclosureschedule": [
                 "Monday, 27 May 2019 (Limited Hours)",
                 "Thursday, 4 July 2019",
                 "Monday, 15 July 2019 - Monday, 29 July 2019",
@@ -128,7 +128,7 @@
                 "5:00 PM Walk-ins and Appointments - English"
             ],
             "sealing": "6:00 AM - 8:00 PM Walk-ins and Appointments",
-            "temple closure schedule": [
+            "templeclosureschedule": [
                 "Tuesday, 25 June 2019 - Monday, 30 September 2019",
                 "Saturday, 5 October 2019",
                 "Wednesday, 27 November 2019 - Thursday, 28 November 2019",
@@ -175,7 +175,7 @@
                 "7:30 PM Walk-ins and Appointments - Spanish"
             ],
             "sealing": "8:00 AM - 9:00 PM Walk-ins and Appointments",
-            "temple closure schedule": [
+            "templeclosureschedule": [
                 "Thursday, 4 July 2019",
                 "Monday, 30 September 2019 - Monday, 11 November 2019",
                 "Wednesday, 27 November 2019 - Thursday, 28 November 2019",

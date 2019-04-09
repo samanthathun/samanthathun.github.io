@@ -1,7 +1,7 @@
 let output = document.querySelector('div.fourtowns');
 
 
-let requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+let requestURL = 'https://samanthathun.github.io/assignments/Temple/temple.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -11,12 +11,11 @@ request.onload = function () {
     let towndata = request.response;
 
 
-    let number = 0;
     let town = towndata['towns'];
-  // console.log(town);
+    console.log(town);
     for (let i = 0; i < town.length; i++) {
 
-        if (town[i].name == "Preston" || town[i].name == "Soda Springs" || town[i].name == "Fish Haven") {
+        if (town[i].name == "Redlands" || town[i].name == "Newport Beach" || town[i].name == "Los Angeles" || town[i].name == "San Diego") {
             let divtown = document.createElement('div');
             divtown.setAttribute('class', 'townbox');
             let myH3 = document.createElement('h3');
@@ -26,10 +25,15 @@ request.onload = function () {
             let myP3 = document.createElement('p');
 
             myH3.textContent = town[i].name;
-            myH4.textContent = town[i].motto;
-            myP1.textContent = "Year Founded: " + town[i].yearFounded;
-            myP2.textContent = "Current Population: " + town[i].currentPopulation;
-            myP3.textContent = "Average Rainfall: " + town[i].averageRainfall;
+            myH4.textContent = town[i].address;
+            myH4.textContent = town[i].telephone;
+            myP1.textContent = "Services: " + town[i].services;
+            myP2.textContent = "History: " + town[i].history;
+            myP3.textContent = "Baptistry Schedule: " + town[i].baptism;
+            myP4.textContent = "Initiatory Schedule: " + town[i].initiatory;
+            myP5.textContent = "Endowment Schedule " + town[i].endowment;
+            myP6.textContent = "Sealing Schedule " + town[i].sealing;
+            myP7.textContent = "Temple Closure Schedule " + town[i].templeclosureschedule;
 
 
 
@@ -38,24 +42,18 @@ request.onload = function () {
             divtown.appendChild(myP1);
             divtown.appendChild(myP2);
             divtown.appendChild(myP3);
+            divtown.appendChild(myP4);
+            divtown.appendChild(myP5);
+            divtown.appendChild(myP6);
+            divtown.appendChild(myP7);
 
             output.appendChild(divtown);
 
-            switch (number) {
-                case 0: divtown.appendChild(img);
-                    break;
 
-                case 1: divtown.appendChild(sodaspringsimg);
-
-                    break;
-                case 2: divtown.appendChild(fishhavenimg);
-            }
-            number++;
-
-        }
 
 
 
 
+        }
     }
 }
