@@ -9,7 +9,6 @@ request.send();
 request.onload = function () {
     let towndata = request.response;
 
-
     let town = towndata['towns'];
     console.log(town);
     for (let i = 0; i < town.length; i++) {
@@ -39,8 +38,6 @@ request.onload = function () {
             myP6.textContent = "Sealing Schedule " + town[i].sealing;
             myP7.textContent = "Temple Closure Schedule " + town[i].templeclosureschedule;
 
-
-
             divtown.appendChild(myH1);
             divtown.appendChild(myH2);
             divtown.appendChild(myH3);
@@ -53,11 +50,6 @@ request.onload = function () {
             divtown.appendChild(myP7);
 
             output.appendChild(divtown);
-
-
-
-
-
 
         }
     }
