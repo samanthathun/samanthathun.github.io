@@ -118,10 +118,14 @@ color: #131414;
 
 
 }
+.temples {
+    justify-content: center;
+}
 
 .templesimg {
     width: 300px;
     height: auto;
+    padding: 0 0 20px;
 }
 
 .weatherdetails {
@@ -140,10 +144,6 @@ color: #131414;
 .weatherdetails .value {
     color: #FFC857;
     padding: 0 15px 0 30px;
-}
-
-.temples {
-    text-align: center;
 }
 
 .reservations {
@@ -170,6 +170,7 @@ color: #131414;
     margin: auto;
     width: 75%;
     text-align: center;
+
 }
 
 
@@ -182,13 +183,25 @@ font-size: 1rem;
 color: #131414;
 margin: auto;
 border: 1px dashed #131414;
-max-width: 650px;
+max-width: 600px;
 
 
 }
+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: .90rem;
+    color: #131414;
+    text-align: left;
 
-.contactus {
-    text-align: center;
+}
+.comments {
+    margin: 2rem;
+    max-width: 600px;
+    border: none;
+
 
 }
 
@@ -200,10 +213,7 @@ max-width: 650px;
     align-items: center;
     text-align: right;
 }
-iframe {
-    width: 300px;
-    padding: 25px;
-}
+
 
 form legend {
     color: #131414;
@@ -219,13 +229,7 @@ input, select {
 
 }
 
-.comments {
-    margin: 2rem;
-    max-width: 600px;
-    border: none;
-    text-align: left;
 
-}
 textarea {
     padding: .75rem;
     margin: 10px 0;
@@ -244,6 +248,13 @@ textarea {
     font-size: 1.25rem;
 }
 
+.ftmissionaryform {
+    max-width: 450px;
+}
+iframe {
+    width: 300px;
+    padding: 25px;
+}
 
 .thanks {
     margin: auto;
@@ -265,7 +276,7 @@ textarea {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     justify-items: center;
-    align-items: center;
+
     text-align: left;
     padding: 25px;
 
