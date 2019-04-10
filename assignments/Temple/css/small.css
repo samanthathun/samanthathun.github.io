@@ -140,6 +140,10 @@ color: #131414;
     padding: 0 15px 0 30px;
 }
 
+.temples {
+    text-align: center;
+}
+
 .reservations {
     grid-column: 1;
     grid-row: 1;

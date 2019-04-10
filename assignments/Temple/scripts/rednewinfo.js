@@ -16,9 +16,9 @@ request.onload = function () {
         if (town[i].name == "Redlands" || town[i].name == "Newport Beach") {
             let divtown = document.createElement('div');
             divtown.setAttribute('class', 'townbox');
-            let myH1 = document.createElement('h1');
-            let myH2 = document.createElement('h2');
-            let myH3 = document.createElement('h2');
+            let myH1 = document.createElement('h2');
+            let myH2 = document.createElement('h4');
+            let myH3 = document.createElement('h4');
             let myP1 = document.createElement('p');
             let myP2 = document.createElement('p');
             let myP3 = document.createElement('p');
