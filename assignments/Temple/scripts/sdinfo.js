@@ -13,7 +13,7 @@ request.onload = function () {
     console.log(town);
     for (let i = 0; i < town.length; i++) {
 
-        if (town[i].name == "Los Angeles" || town[i].name == "San Diego") {
+        if (town[i].name == "San Diego") {
             let divtown = document.createElement('div');
             divtown.setAttribute('class', 'temples');
             let myH1 = document.createElement('h2');
