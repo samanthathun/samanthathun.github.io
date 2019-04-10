@@ -60,10 +60,12 @@
     grid-template-columns: 1fr 1fr;
     padding: 25px;
 }
-
-
+.foodgrid {
+    grid-template-columns: 1fr;
+}
 .servicesgrid {
     grid-template-columns: 1fr 1fr;
+
 }
 
 .ftmissionaryimgs {
