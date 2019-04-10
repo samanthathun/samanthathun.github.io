@@ -1,6 +1,5 @@
 let output = document.querySelector('div.fourtowns');
 
-
 let requestURL = 'https://samanthathun.github.io/assignments/Temple/temple.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -18,15 +17,20 @@ request.onload = function () {
         if (town[i].name == "Redlands" || town[i].name == "Newport Beach" || town[i].name == "Los Angeles" || town[i].name == "San Diego") {
             let divtown = document.createElement('div');
             divtown.setAttribute('class', 'townbox');
-            let myH3 = document.createElement('h3');
-            let myH4 = document.createElement('h4');
+            let myH1 = document.createElement('h1');
+            let myH2 = document.createElement('h2');
+            let myH3 = document.createElement('h2');
             let myP1 = document.createElement('p');
             let myP2 = document.createElement('p');
             let myP3 = document.createElement('p');
+            let myP4 = document.createElement('p');
+            let myP5 = document.createElement('p');
+            let myP6 = document.createElement('p');
+            let myP7 = document.createElement('p');
 
-            myH3.textContent = town[i].name;
-            myH4.textContent = town[i].address;
-            myH4.textContent = town[i].telephone;
+            myH1.textContent = town[i].name;
+            myH2.textContent = town[i].address;
+            myH3.textContent = town[i].telephone;
             myP1.textContent = "Services: " + town[i].services;
             myP2.textContent = "History: " + town[i].history;
             myP3.textContent = "Baptistry Schedule: " + town[i].baptism;
@@ -37,8 +41,9 @@ request.onload = function () {
 
 
 
+            divtown.appendChild(myH1);
+            divtown.appendChild(myH2);
             divtown.appendChild(myH3);
-            divtown.appendChild(myH4);
             divtown.appendChild(myP1);
             divtown.appendChild(myP2);
             divtown.appendChild(myP3);
