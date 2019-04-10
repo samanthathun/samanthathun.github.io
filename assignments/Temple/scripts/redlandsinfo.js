@@ -13,7 +13,7 @@ request.onload = function () {
     console.log(town);
     for (let i = 0; i < town.length; i++) {
 
-        if (town[i].name == "Redlands" || town[i].name == "Newport Beach") {
+        if (town[i].name == "Redlands") {
             let divtown = document.createElement('div');
             divtown.setAttribute('class', 'townbox');
             let myH1 = document.createElement('h2');
