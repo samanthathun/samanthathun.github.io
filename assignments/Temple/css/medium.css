@@ -19,6 +19,10 @@
     position: absolute;
     margin: -90px 10px;
 }
+.sdtempleparagraph {
+position: absolute;
+margin-top: -80px;
+}
 .homegrid {
     grid-template-columns: 1fr 1fr;
 }
