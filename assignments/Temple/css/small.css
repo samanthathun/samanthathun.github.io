@@ -290,7 +290,10 @@ textarea {
     text-align: center;
     font-size: 1.25rem;
 }
-
+.ammenities {
+grid-column: 1;
+grid-row: 3;
+}
 .ftmissionaryform {
     max-width: 450px;
 }
@@ -341,6 +344,8 @@ iframe {
     padding: 25px;
     justify-items: center;
     align-items: center;
+    grid-column: 1;
+    grid-row: 2;
 
 }
 

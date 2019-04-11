@@ -80,6 +80,14 @@
     grid-template-columns: 1fr 1fr;
 
 }
+.servicesimggrid {
+    grid-column: 1;
+    grid-row: 2;
+}
+.ammenities {
+    grid-column: 2;
+    grid-row: 2;
+}
 
 .ftmissionaryimgs {
     width: 400px;
