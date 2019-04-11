@@ -224,7 +224,11 @@ table, th, td {
     text-align: center;
 
 }
-
+.smallicon {
+    width: 25px;
+    height: auto;
+    padding: 5px;
+}
 
 form fieldset, .comments{
 display: flex;
