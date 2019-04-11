@@ -149,7 +149,7 @@ color: #131414;
 }
 .templessubimg {
     width: auto;
-    height: 500px;
+    height: auto;
 }
 .weathersummary {
     background-color: #fff;
@@ -176,11 +176,9 @@ color: #131414;
     padding: 0 15px 0 30px;
 }
 .forecast {
-   font-size: 1.25rem;
-    grid-column: 1 / 3;
-    grid-row: 2;
-    padding: 25px;
-}
+    display: none;
+    
+ }
 table, th, td {
     border: 1px solid #131414;
     border-collapse: collapse;
