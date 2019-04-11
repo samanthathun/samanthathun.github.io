@@ -118,10 +118,30 @@ color: #131414;
 
 
 }
+.templespagegrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
 .temples {
+    padding: 25px;
     justify-content: center;
 }
 
+.templesweathergrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+
+}
 .templesimg {
     width: 300px;
     height: auto;
@@ -131,7 +151,13 @@ color: #131414;
     width: auto;
     height: 500px;
 }
-
+.weathersummary {
+    background-color: #fff;
+    border: .5px solid #131414;
+    padding: 10px 0;
+  
+  
+}
 .weatherdetails {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -140,16 +166,29 @@ color: #131414;
 }
 .weatherdetails .label {
     font-size: 1.25rem;
-    color: #083D77;
+    color: #131414;
     text-align: right;
     padding: 0 0 0 15px;
 
 }
 .weatherdetails .value {
-    color: #FFC857;
+    color: #131414;
     padding: 0 15px 0 30px;
 }
-
+.forecast {
+   font-size: 1.25rem;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    padding: 25px;
+}
+table, th, td {
+    border: 1px solid #131414;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  th, td {
+    padding: 15px;
+  }
 .reservations {
     grid-column: 1;
     grid-row: 1;

@@ -40,64 +40,74 @@
     </picture>
 
     <main>
-        
-        <div class="fourtowns"></div>
 
-        <picture>
-                <source srcset="images/latemplesuboptimized800.jpg" media="(min-width: 800px)">
-                <source srcset="images/latemplesuboptimized500.jpg" media="(min-width: 500px) and (max-width:799px)">
-                <img class="templessubimg" src="images/latemplesuboptimized300.jpg"
-                    alt="Los Angeles temple with green grass">
-            </picture>
+        <div class="templespagegrid">
 
-        <div class="weathersummary">
-            <h4>Weather Summary</h4>
-            <div class="weatherdetails">
-                <div class="label">Currently</div>
-                <div class="value"><span id="currently"></span></div>
-                <div class="label">High</div>
-                <div class="value"><span id="temp"></span>&deg;F</div>
-                <div class="label">Wind Chill</div>
-                <div class="value"><span id="windchill"></span>&deg;F</div>
-                <div class="label">Humidity</div>
-                <div class="value"><span id="humidity"></span>%</div>
-                <div class="label">Wind Speed</div>
-                <div class="value"><span id="wind"></span>mph</div>
+            <div class="fourtowns"></div>
+
+            <div class="templesweathergrid">
+
+                <div class="weathersummary">
+                    <h4>Weather Summary</h4>
+                    <div class="weatherdetails">
+                        <div class="label">Currently</div>
+                        <div class="value"><span id="currently"></span></div>
+                        <div class="label">High</div>
+                        <div class="value"><span id="temp"></span>&deg;F</div>
+                        <div class="label">Wind Chill</div>
+                        <div class="value"><span id="windchill"></span>&deg;F</div>
+                        <div class="label">Humidity</div>
+                        <div class="value"><span id="humidity"></span>%</div>
+                        <div class="label">Wind Speed</div>
+                        <div class="value"><span id="wind"></span>mph</div>
+                    </div>
+                </div>
+
+                <picture>
+                    <source srcset="images/latemplesuboptimized800.jpg" media="(min-width: 800px)">
+                    <source srcset="images/latemplesuboptimized500.jpg"
+                        media="(min-width: 500px) and (max-width:799px)">
+                    <img class="templessubimg" src="images/latemplesuboptimized300.jpg"
+                        alt="Los Angeles temple with green grass">
+                </picture>
+
             </div>
-        </div>
 
-        <div class="forecast">
-            <h4>5 Day Forecast</h4>
-            <table>
-                <thead>
-                    <tr>
-                        <th><span id="forecastday1"></span></th>
-                        <th><span id="forecastday2"></span></th>
-                        <th><span id="forecastday3"></span></th>
-                        <th><span id="forecastday4"></span></th>
-                        <th><span id="forecastday5"></span></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><img id="cc-img1" class="forecastimg" src="" alt=""><br><span
-                                id="current-temp1"></span>&deg;F
-                        </td>
-                        <td><img id="cc-img2" class="forecastimg" src="" alt=""><br><span
-                                id="current-temp2"></span>&deg;F
-                        </td>
-                        <td><img id="cc-img3" class="forecastimg" src="" alt=""><br><span
-                                id="current-temp3"></span>&deg;F
-                        </td>
-                        <td><img id="cc-img4" class="forecastimg" src="" alt=""><br><span
-                                id="current-temp4"></span>&deg;F
-                        </td>
-                        <td><img id="cc-img5" class="forecastimg" src="" alt=""><br><span
-                                id="current-temp5"></span>&deg;F
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+
+            <div class="forecast">
+                <h4>5 Day Forecast</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th><span id="forecastday1"></span></th>
+                            <th><span id="forecastday2"></span></th>
+                            <th><span id="forecastday3"></span></th>
+                            <th><span id="forecastday4"></span></th>
+                            <th><span id="forecastday5"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img id="cc-img1" class="forecastimg" src="" alt=""><br><span
+                                    id="current-temp1"></span>&deg;F
+                            </td>
+                            <td><img id="cc-img2" class="forecastimg" src="" alt=""><br><span
+                                    id="current-temp2"></span>&deg;F
+                            </td>
+                            <td><img id="cc-img3" class="forecastimg" src="" alt=""><br><span
+                                    id="current-temp3"></span>&deg;F
+                            </td>
+                            <td><img id="cc-img4" class="forecastimg" src="" alt=""><br><span
+                                    id="current-temp4"></span>&deg;F
+                            </td>
+                            <td><img id="cc-img5" class="forecastimg" src="" alt=""><br><span
+                                    id="current-temp5"></span>&deg;F
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
         </div>
 
         <h3><a href="temples.html">Go Back</a></h3>
