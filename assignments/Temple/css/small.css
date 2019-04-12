@@ -139,7 +139,6 @@ color: #131414;
     padding: 25px;
 }
 .temples {
-    padding: 25px;
     justify-content: center;
 }
 .townbox p {
@@ -402,12 +401,11 @@ ul.subpagelist {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    padding: 25px;
     justify-items: center;
     align-items: center;
 }
 .foodimgs {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 .receptionlist {

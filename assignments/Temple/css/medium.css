@@ -76,6 +76,11 @@
 }
 .foodgrid {
     grid-template-columns: 1fr;
+    padding: 25px;
+}
+.foodimgs {
+    width: 250px;
+    height: auto;
 }
 .servicesgrid {
     grid-template-columns: 1fr 1fr;
