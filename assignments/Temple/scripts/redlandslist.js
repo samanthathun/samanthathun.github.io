@@ -10,7 +10,7 @@ request.onload = function () {
     let towndata = request.response;
 
     let town = towndata['towns'];
-    console.log(town);
+    
     for (let i = 0; i < town.length; i++) {
 
         if (town[i].name == "Redlands") {
