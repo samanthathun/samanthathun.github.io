@@ -34,9 +34,9 @@ request.onload = function () {
             myP2.textContent = "History: " + town[i].history;
             myP3.textContent = "Baptistry Schedule: " + town[i].baptism;
             myP4.textContent = "Initiatory Schedule: " + town[i].initiatory;
-            myP5.textContent = "Endowment Schedule " + town[i].endowment;
-            myP6.textContent = "Sealing Schedule " + town[i].sealing;
-            myP7.textContent = "Temple Closure Schedule " + town[i].templeclosureschedule;
+            myP5.textContent = "Endowment Schedule: " + town[i].endowment;
+            myP6.textContent = "Sealing Schedule: " + town[i].sealing;
+            myP7.textContent = "Temple Closure Schedule: " + town[i].templeclosureschedule;
 
             divtown.appendChild(myH1);
             divtown.appendChild(myH2);

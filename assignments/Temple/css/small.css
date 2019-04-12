@@ -146,6 +146,10 @@ color: #131414;
     text-align: left;
     padding: 10px;
 }
+.temples p {
+    text-align: left;
+    padding: 10px;  
+}
 .templesweathergrid {
     display: grid;
     grid-template-columns: 1fr;
