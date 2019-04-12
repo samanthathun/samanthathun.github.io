@@ -94,7 +94,9 @@
     grid-column: 2;
     grid-row: 2;
 }
-
+fieldset {
+    padding: 20px;
+}
 .ftmissionaryimgs {
     width: 400px;
 }
