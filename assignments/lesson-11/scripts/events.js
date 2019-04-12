@@ -26,6 +26,7 @@ prestonrequest.onload = function () {
                 listitem.textContent = list1[j];
 
                 listpreston.appendChild(listitem);
+                
                 document.getElementById('events').appendChild(listpreston);
             }
 

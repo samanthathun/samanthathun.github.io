@@ -142,7 +142,10 @@ color: #131414;
     padding: 25px;
     justify-content: center;
 }
-
+.townbox p {
+    text-align: left;
+    padding: 10px;
+}
 .templesweathergrid {
     display: grid;
     grid-template-columns: 1fr;
@@ -337,7 +340,6 @@ iframe {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     justify-items: center;
-
     text-align: left;
     padding: 25px;
 

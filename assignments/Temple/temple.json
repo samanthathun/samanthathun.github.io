@@ -2,13 +2,13 @@
     "towns": [
         {
             "name": "Redlands",
-            "address": "1761 Fifth Ave, Redlands CA 92374-5503 United States",
-            "telephone": "909-389-7369",
+            "address": "1761 Fifth Ave, Redlands CA 92374-5503 United States", 
+            "telephone": "909-389-7369", 
             "services": [
-                "No clothing rental available",
-                "No cafeteria available",
-                "No patron housing available",
-                "Distribution center nearby"
+                "No clothing rental available", 
+                "No cafeteria available", 
+                "No patron housing available", 
+                "Distribution center nearby" 
             ],
             "history": [
                 "Announced: April 21, 2001",
